@@ -1,0 +1,13 @@
+class PointToPointProbabilisticDropChannel: PointToPointChannel
+  PROPERTIES
+    random = SenseUniformRandom("DropOrStay")
+
+  METHODS
+    method send (attachment : Attachment, packet : Packet) -> Logical
+      if random.int32(0,10) < 5
+         println "$ dropping $" (this,packet)
+        packet.drop()
+        return false
+      endIf
+      return prior.send(attachment, packet)
+endClass
