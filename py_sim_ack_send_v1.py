@@ -11,6 +11,18 @@ STARTING_NODE = 3
 DROP_PROB = 0.9
 DEBUG_STOP_AND_PRINT = 100
 
+##################
+#  DATA STRUCTURES
+#  - 'nxt' : Mapping of
+#     - (neighbor : next packet to sned)
+#
+#  - 'snd_ack' : Mapping of 
+#     - (neighbor received from : packet number)
+#
+#  - 'msg' : Actual message received so far
+#  - 'msg_set' : Set of message received so far
+#################
+
 
 for nt in nwrk.nodes(data=True):
     nt[1]['nxt'] = dict()
@@ -31,33 +43,49 @@ for i in range(MSG_SIZE):
 spring_layout = nx.spring_layout(nwrk)
 i = 0
 done = False
+
+#############
+# ACTUAL SIMULATION
+#############
 while not done:
     i += 1
     if i % 10 == 0:
         print("Iteration:",i)
     if DEBUG_STOP_AND_PRINT != None and i % DEBUG_STOP_AND_PRINT == 0:
-        #print(nwrk.nodes(data=True))
         generate_graph_msg_list(nwrk, spring_layout)
+
+    ####################
+    # SEND TO NEIGHBORS
+    ####################
     for node_tuple in nwrk.nodes(data=True):
         node_dict = node_tuple[1]
+        this_node = node_tuple[0]
+
+        ######
+        # Don't send if no messages saved
+        #####
         if len(node_dict['msg']) == 0:
             continue
+        
         else:
-            for neighbors in nwrk.adj[node_tuple[0]]:
+            for neighbors in nwrk.adj[this_node]:
                 send_msg = node_dict['nxt'][neighbors]
+                ########
+                # SENDING MESSAGE
+                ########
                 if random.random() > DROP_PROB:
                     if send_msg not in nwrk.nodes[neighbors]['msg_set']:
                         nwrk.nodes[neighbors]['msg_set'].add(send_msg)
                         nwrk.nodes[neighbors]['msg'] += [send_msg]
-                        nwrk.nodes[neighbors]['snd_ack'][node_tuple[0]] = send_msg # Set SND_ACK Dict to have (Sending_host, send_msg)
+                        nwrk.nodes[neighbors]['snd_ack'][this_node] = send_msg # Set SND_ACK Dict to have (Sending_host, send_msg)
+
+            ###########
+            # SEND ACKs
+            ###########
             for hst, msg  in node_dict['snd_ack'].items():
                 if random.random() > DROP_PROB:
-                    nwrk.nodes[hst]['nxt'][node_tuple[0]] = (nwrk.nodes[hst]['nxt'][node_tuple[0]] + 1) % len(nwrk.nodes[hst]['msg'])
-
-
-                #node_dict['nxt'][neighbors] = (send_msg + 1) % len(node_dict['msg'])
-
-
+                    nwrk.nodes[hst]['nxt'][this_node] = (nwrk.nodes[hst]['nxt'][this_node] + 1) % len(nwrk.nodes[hst]['msg'])
+                    ### Note that this goes into the neighbor's NEXT dictionary and increments the current nodes 'next message to sendd'
 
     #################
     # ARE WE DONE? 

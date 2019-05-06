@@ -2,7 +2,10 @@ import matplotlib.pyplot as plt
 import networkx as nx
 
 
-
+'''
+Method that draws a graph of all the nodes with color corresponding to amount of message recieved.
+The optional 'layout' parameter is used so that the graph can remain the same between iterations
+'''
 def generate_graph_msg_list(graph, layout=None):
     if layout == None:
         layout = nx.spring_layout(graph)
