@@ -1,0 +1,701 @@
+# gutil graph
+
+# Type:     Graph
+# Nodes:    69
+# Edges:    623
+# Written:  2019-04-02 10:51 AM
+# Filename: resultRocket.gg
+
+g 'Graph',
+n 1, {'interdomain': True, 'asn': 1}
+n 7170, {'interdomain': True, 'asn': 7170}
+n 3, {'interdomain': True, 'asn': 3}
+n 1668, {'interdomain': True, 'asn': 1668}
+n 5511, {'interdomain': True, 'asn': 5511}
+n 7176, {'interdomain': True, 'asn': 7176}
+n 6539, {'interdomain': True, 'asn': 6539}
+n 2828, {'interdomain': True, 'asn': 2828}
+n 4589, {'interdomain': True, 'asn': 4589}
+n 11537, {'interdomain': True, 'asn': 11537}
+n 12050, {'interdomain': True, 'asn': 12050}
+n 1299, {'interdomain': True, 'asn': 1299}
+n 5400, {'interdomain': True, 'asn': 5400}
+n 6939, {'interdomain': True, 'asn': 6939}
+n 3356, {'interdomain': True, 'asn': 3356}
+n 4637, {'interdomain': True, 'asn': 4637}
+n 10910, {'interdomain': True, 'asn': 10910}
+n 4513, {'interdomain': True, 'asn': 4513}
+n 5669, {'interdomain': True, 'asn': 5669}
+n 4006, {'interdomain': True, 'asn': 4006}
+n 8220, {'interdomain': True, 'asn': 8220}
+n 174, {'interdomain': True, 'asn': 174}
+n 15412, {'interdomain': True, 'asn': 15412}
+n 6453, {'interdomain': True, 'asn': 6453}
+n 3257, {'interdomain': True, 'asn': 3257}
+n 15290, {'interdomain': True, 'asn': 15290}
+n 2687, {'interdomain': True, 'asn': 2687}
+n 3582, {'interdomain': True, 'asn': 3582}
+n 701, {'interdomain': True, 'asn': 701}
+n 4600, {'interdomain': True, 'asn': 4600}
+n 4725, {'interdomain': True, 'asn': 4725}
+n 4544, {'interdomain': True, 'asn': 4544}
+n 577, {'interdomain': True, 'asn': 577}
+n 6467, {'interdomain': True, 'asn': 6467}
+n 1221, {'interdomain': True, 'asn': 1221}
+n 13129, {'interdomain': True, 'asn': 13129}
+n 7543, {'interdomain': True, 'asn': 7543}
+n 1784, {'interdomain': True, 'asn': 1784}
+n 209, {'interdomain': True, 'asn': 209}
+n 5650, {'interdomain': True, 'asn': 5650}
+n 852, {'interdomain': True, 'asn': 852}
+n 4565, {'interdomain': True, 'asn': 4565}
+n 9942, {'interdomain': True, 'asn': 9942}
+n 1239, {'interdomain': True, 'asn': 1239}
+n 11608, {'interdomain': True, 'asn': 11608}
+n 7132, {'interdomain': True, 'asn': 7132}
+n 3549, {'interdomain': True, 'asn': 3549}
+n 3602, {'interdomain': True, 'asn': 3602}
+n 702, {'interdomain': True, 'asn': 702}
+n 2914, {'interdomain': True, 'asn': 2914}
+n 4323, {'interdomain': True, 'asn': 4323}
+n 3300, {'interdomain': True, 'asn': 3300}
+n 101, {'interdomain': True, 'asn': 101}
+n 7911, {'interdomain': True, 'asn': 7911}
+n 3561, {'interdomain': True, 'asn': 3561}
+n 7018, {'interdomain': True, 'asn': 7018}
+n 6509, {'interdomain': True, 'asn': 6509}
+n 9070, {'interdomain': True, 'asn': 9070}
+n 6461, {'interdomain': True, 'asn': 6461}
+n 2497, {'interdomain': True, 'asn': 2497}
+n 4755, {'interdomain': True, 'asn': 4755}
+n 2548, {'interdomain': True, 'asn': 2548}
+n 3701, {'interdomain': True, 'asn': 3701}
+n 16631, {'interdomain': True, 'asn': 16631}
+n 3320, {'interdomain': True, 'asn': 3320}
+n 1785, {'interdomain': True, 'asn': 1785}
+n 6395, {'interdomain': True, 'asn': 6395}
+n 2686, {'interdomain': True, 'asn': 2686}
+n 3967, {'interdomain': True, 'asn': 3967}
+e 1, 7170, {'latency': 0.0, 'city': {1: 'Chicago, IL', 7170: 'Chicago, IL'}, 'asn': {1: 1, 7170: 7170}, 'interdomain': True}
+e 1, 3, {'latency': 0.0, 'asn': {1: 1, 3: 3}, 'city': {1: 'Cambridge, MA', 3: 'Cambridge, MA'}, 'interdomain': True}
+e 1, 5511, {'latency': 0.124477546789977, 'asn': {1: 1, 5511: 5511}, 'city': {1: 'Palo Alto, CA', 5511: 'San Jose, CA'}, 'interdomain': True}
+e 1, 7176, {'latency': 0.0, 'asn': {7176: 7176, 1: 1}, 'city': {7176: 'Tokyo, Japan', 1: 'Tokyo, Japan'}, 'interdomain': True}
+e 1, 2828, {'latency': 0.0, 'asn': {1: 1, 2828: 2828}, 'city': {1: 'Washington, DC', 2828: 'Washington, DC'}, 'interdomain': True}
+e 1, 4589, {'latency': 0.0, 'city': {1: 'New York, NY', 4589: 'New York, NY'}, 'asn': {1: 1, 4589: 4589}, 'interdomain': True}
+e 1, 11537, {'latency': 0.0, 'city': {1: 'Chicago, IL', 11537: 'Chicago, IL'}, 'asn': {1: 1, 11537: 11537}, 'interdomain': True}
+e 1, 5650, {'latency': 0.0, 'asn': {1: 1, 5650: 5650}, 'city': {1: 'Seattle, WA', 5650: 'Seattle, WA'}, 'interdomain': True}
+e 1, 1299, {'latency': 0.0926850068982159, 'asn': {1: 1, 1299: 1299}, 'city': {1: 'Palo Alto, CA', 1299: 'Santa Clara, CA'}, 'interdomain': True}
+e 1, 5400, {'latency': 0.225316255475169, 'asn': {5400: 5400, 1: 1}, 'city': {5400: 'Ashburn, VA', 1: 'Washington, DC'}, 'interdomain': True}
+e 1, 6939, {'latency': 0.0, 'city': {1: 'Ashburn, VA', 6939: 'Ashburn, VA'}, 'asn': {1: 1, 6939: 6939}, 'interdomain': True}
+e 1, 8220, {'latency': 0.0, 'city': {1: 'New York, NY', 8220: 'New York, NY'}, 'asn': {1: 1, 8220: 8220}, 'interdomain': True}
+e 1, 4637, {'latency': 0.0, 'asn': {1: 1, 4637: 4637}, 'city': {1: 'San Jose, CA', 4637: 'San Jose, CA'}, 'interdomain': True}
+e 1, 10910, {'latency': 0.0, 'asn': {1: 1, 10910: 10910}, 'city': {1: 'Vienna, VA', 10910: 'Vienna, VA'}, 'interdomain': True}
+e 1, 4513, {'latency': 0.0, 'asn': {1: 1, 4513: 4513}, 'city': {1: 'Washington, DC', 4513: 'Washington, DC'}, 'interdomain': True}
+e 1, 5669, {'latency': 0.0, 'city': {1: 'Dublin, Ireland', 5669: 'Dublin, Ireland'}, 'asn': {1: 1, 5669: 5669}, 'interdomain': True}
+e 1, 4006, {'latency': 0.381420811600469, 'asn': {1: 1, 4006: 4006}, 'city': {1: 'San Jose, CA', 4006: 'San Francisco, CA'}, 'interdomain': True}
+e 1, 3356, {'latency': 0.0, 'asn': {1: 1, 3356: 3356}, 'city': {1: 'Seattle, WA', 3356: 'Seattle, WA'}, 'interdomain': True}
+e 1, 174, {'latency': 0.0, 'asn': {1: 1, 174: 174}, 'city': {1: 'New York, NY', 174: 'New York, NY'}, 'interdomain': True}
+e 1, 6453, {'latency': 0.694034461214314, 'asn': {1: 1, 6453: 6453}, 'city': {1: 'Palo Alto, CA', 6453: 'Sacramento, CA'}, 'interdomain': True}
+e 1, 3257, {'latency': 0.0, 'asn': {1: 1, 3257: 3257}, 'city': {1: 'Washington, DC', 3257: 'Washington, DC'}, 'interdomain': True}
+e 1, 6461, {'latency': 0.0, 'asn': {1: 1, 6461: 6461}, 'city': {1: 'Seattle, WA', 6461: 'Seattle, WA'}, 'interdomain': True}
+e 1, 4725, {'latency': 18.5226753489951, 'city': {1: 'Washington, DC', 4725: 'Los Angeles, CA'}, 'asn': {1: 1, 4725: 4725}, 'interdomain': True}
+e 1, 4544, {'latency': 0.0, 'asn': {4544: 4544, 1: 1}, 'city': {4544: 'Palo Alto, CA', 1: 'Palo Alto, CA'}, 'interdomain': True}
+e 1, 2497, {'latency': 0.0, 'asn': {1: 1, 2497: 2497}, 'city': {1: 'Palo Alto, CA', 2497: 'Palo Alto, CA'}, 'interdomain': True}
+e 1, 6467, {'latency': 0.0, 'asn': {1: 1, 6467: 6467}, 'city': {1: 'Washington, DC', 6467: 'Washington, DC'}, 'interdomain': True}
+e 1, 1221, {'latency': 0.0, 'city': {1: 'Los Angeles, CA', 1221: 'Los Angeles, CA'}, 'asn': {1: 1, 1221: 1221}, 'interdomain': True}
+e 1, 16631, {'latency': 0.0, 'asn': {1: 1, 16631: 16631}, 'city': {1: 'New York, NY', 16631: 'New York, NY'}, 'interdomain': True}
+e 1, 209, {'latency': 0.0, 'asn': {1: 1, 209: 209}, 'city': {1: 'Seattle, WA', 209: 'Seattle, WA'}, 'interdomain': True}
+e 1, 852, {'latency': 0.0, 'asn': {1: 1, 852: 852}, 'city': {1: 'Seattle, WA', 852: 'Seattle, WA'}, 'interdomain': True}
+e 1, 4565, {'latency': 0.0, 'asn': {1: 1, 4565: 4565}, 'city': {1: 'Washington, DC', 4565: 'Washington, DC'}, 'interdomain': True}
+e 1, 9942, {'latency': 0.0, 'city': {1: 'Seattle, WA', 9942: 'Seattle, WA'}, 'asn': {1: 1, 9942: 9942}, 'interdomain': True}
+e 1, 1239, {'latency': 0.225316255475169, 'asn': {1: 1, 1239: 1239}, 'city': {1: 'Washington, DC', 1239: 'Ashburn, VA'}, 'interdomain': True}
+e 1, 3549, {'latency': 0.0, 'asn': {1: 1, 3549: 3549}, 'city': {1: 'Phoenix, AZ', 3549: 'Phoenix, AZ'}, 'interdomain': True}
+e 1, 2914, {'latency': 0.0, 'asn': {1: 1, 2914: 2914}, 'city': {1: 'Seattle, WA', 2914: 'Seattle, WA'}, 'interdomain': True}
+e 1, 4323, {'latency': 0.114850126520913, 'asn': {1: 1, 4323: 4323}, 'city': {1: 'Washington, DC', 4323: 'Vienna, VA'}, 'interdomain': True}
+e 1, 3300, {'latency': 0.0, 'asn': {1: 1, 3300: 3300}, 'city': {1: 'Washington, DC', 3300: 'Washington, DC'}, 'interdomain': True}
+e 1, 7911, {'latency': 0.16976896644921, 'asn': {1: 1, 7911: 7911}, 'city': {1: 'Washington, DC', 7911: 'Herndon, VA'}, 'interdomain': True}
+e 1, 3561, {'latency': 0.0, 'asn': {1: 1, 3561: 3561}, 'city': {1: 'Palo Alto, CA', 3561: 'Palo Alto, CA'}, 'interdomain': True}
+e 1, 7018, {'latency': 0.0, 'asn': {1: 1, 7018: 7018}, 'city': {1: 'Washington, DC', 7018: 'Washington, DC'}, 'interdomain': True}
+e 1, 12050, {'latency': 0.0, 'asn': {1: 1, 12050: 12050}, 'city': {1: 'Washington, DC', 12050: 'Washington, DC'}, 'interdomain': True}
+e 1, 701, {'latency': 0.0, 'asn': {1: 1, 701: 701}, 'city': {1: 'Washington, DC', 701: 'Washington, DC'}, 'interdomain': True}
+e 1, 2548, {'latency': 0.124477546789977, 'asn': {1: 1, 2548: 2548}, 'city': {1: 'Palo Alto, CA', 2548: 'San Jose, CA'}, 'interdomain': True}
+e 1, 3701, {'latency': 0.0, 'city': {1: 'Seattle, WA', 3701: 'Seattle, WA'}, 'asn': {1: 1, 3701: 3701}, 'interdomain': True}
+e 1, 7543, {'latency': 0.0, 'asn': {1: 1, 7543: 7543}, 'city': {1: 'San Jose, CA', 7543: 'San Jose, CA'}, 'interdomain': True}
+e 1, 3320, {'latency': 0.0, 'asn': {3320: 3320, 1: 1}, 'city': {3320: 'New York, NY', 1: 'New York, NY'}, 'interdomain': True}
+e 1, 1785, {'latency': 1.57033497150171, 'city': {1: 'New York, NY', 1785: 'Syracuse, NY'}, 'asn': {1: 1, 1785: 1785}, 'interdomain': True}
+e 1, 6395, {'latency': 0.0, 'asn': {1: 1, 6395: 6395}, 'city': {1: 'Washington, DC', 6395: 'Washington, DC'}, 'interdomain': True}
+e 7170, 101, {'latency': 0.0, 'city': {7170: 'Seattle, WA', 101: 'Seattle, WA'}, 'asn': {7170: 7170, 101: 101}, 'interdomain': True}
+e 7170, 209, {'latency': 0.0, 'asn': {209: 209, 7170: 7170}, 'city': {209: 'Washington, DC', 7170: 'Washington, DC'}, 'interdomain': True}
+e 7170, 7018, {'latency': 0.0, 'asn': {7018: 7018, 7170: 7170}, 'city': {7018: 'Washington, DC', 7170: 'Washington, DC'}, 'interdomain': True}
+e 7170, 6509, {'latency': 0.0, 'asn': {7170: 7170, 6509: 6509}, 'city': {7170: 'Vancouver, Canada', 6509: 'Vancouver, Canada'}, 'interdomain': True}
+e 7170, 11537, {'latency': 0.0, 'asn': {11537: 11537, 7170: 7170}, 'city': {11537: 'Washington, DC', 7170: 'Washington, DC'}, 'interdomain': True}
+e 7170, 3549, {'latency': 0.0, 'asn': {7170: 7170, 3549: 3549}, 'city': {7170: 'Milan, Italy', 3549: 'Milan, Italy'}, 'interdomain': True}
+e 3, 11537, {'latency': 0.0, 'city': {11537: 'Boston, MA', 3: 'Boston, MA'}, 'asn': {11537: 11537, 3: 3}, 'interdomain': True}
+e 1668, 4544, {'latency': 0.0, 'city': {4544: 'Ashburn, VA', 1668: 'Ashburn, VA'}, 'asn': {4544: 4544, 1668: 1668}, 'interdomain': True}
+e 1668, 4323, {'latency': 0.0, 'city': {4323: 'Los Angeles, CA', 1668: 'Los Angeles, CA'}, 'asn': {4323: 4323, 1668: 1668}, 'interdomain': True}
+e 1668, 4006, {'latency': 0.323328237108265, 'city': {1668: 'Sunnyvale, CA', 4006: 'San Francisco, CA'}, 'asn': {1668: 1668, 4006: 4006}, 'interdomain': True}
+e 1668, 3561, {'latency': 0.0288213047287407, 'asn': {3561: 3561, 1668: 1668}, 'city': {3561: 'Santa Clara, CA', 1668: 'Sunnyvale, CA'}, 'interdomain': True}
+e 1668, 7018, {'latency': 0.0, 'asn': {7018: 7018, 1668: 1668}, 'city': {7018: 'Washington, DC', 1668: 'Washington, DC'}, 'interdomain': True}
+e 1668, 3549, {'latency': 0.0, 'asn': {1668: 1668, 3549: 3549}, 'city': {1668: 'Washington, DC', 3549: 'Washington, DC'}, 'interdomain': True}
+e 1668, 209, {'latency': 0.0, 'asn': {209: 209, 1668: 1668}, 'city': {209: 'Washington, DC', 1668: 'Washington, DC'}, 'interdomain': True}
+e 1668, 1299, {'latency': 0.0, 'asn': {1299: 1299, 1668: 1668}, 'city': {1299: 'New York, NY', 1668: 'New York, NY'}, 'interdomain': True}
+e 1668, 1239, {'latency': 0.0, 'asn': {1668: 1668, 1239: 1239}, 'city': {1668: 'Los Angeles, CA', 1239: 'Los Angeles, CA'}, 'interdomain': True}
+e 1668, 1785, {'latency': 0.0, 'city': {1785: 'New York, NY', 1668: 'New York, NY'}, 'asn': {1785: 1785, 1668: 1668}, 'interdomain': True}
+e 1668, 3356, {'latency': 0.0, 'asn': {1668: 1668, 3356: 3356}, 'city': {1668: 'Washington, DC', 3356: 'Washington, DC'}, 'interdomain': True}
+e 1668, 701, {'latency': 0.0, 'asn': {1668: 1668, 701: 701}, 'city': {1668: 'Washington, DC', 701: 'Washington, DC'}, 'interdomain': True}
+e 1668, 702, {'latency': 0.0, 'city': {1668: 'Tokyo, Japan', 702: 'Tokyo, Japan'}, 'asn': {1668: 1668, 702: 702}, 'interdomain': True}
+e 5511, 2828, {'latency': 0.124477546789977, 'city': {2828: 'Palo Alto, CA', 5511: 'San Jose, CA'}, 'asn': {2828: 2828, 5511: 5511}, 'interdomain': True}
+e 5511, 11537, {'latency': 1.31580076013171, 'city': {11537: 'Indianapolis, IN', 5511: 'Chicago, IL'}, 'asn': {11537: 11537, 5511: 5511}, 'interdomain': True}
+e 5511, 3602, {'latency': 0.0, 'city': {3602: 'New York, NY', 5511: 'New York, NY'}, 'asn': {3602: 3602, 5511: 5511}, 'interdomain': True}
+e 5511, 1299, {'latency': 0.0, 'asn': {1299: 1299, 5511: 5511}, 'city': {1299: 'Stockholm, Sweden', 5511: 'Stockholm, Sweden'}, 'interdomain': True}
+e 5511, 8220, {'latency': 0.0, 'asn': {8220: 8220, 5511: 5511}, 'city': {8220: 'Paris, France', 5511: 'Paris, France'}, 'interdomain': True}
+e 5511, 4006, {'latency': 0.381420811600469, 'asn': {4006: 4006, 5511: 5511}, 'city': {4006: 'San Francisco, CA', 5511: 'San Jose, CA'}, 'interdomain': True}
+e 5511, 3356, {'latency': 42.030205069196, 'asn': {3356: 3356, 5511: 5511}, 'city': {3356: 'San Jose, CA', 5511: 'Tokyo, Japan'}, 'interdomain': True}
+e 5511, 174, {'latency': 0.225316255475169, 'city': {174: 'Washington, DC', 5511: 'Ashburn, VA'}, 'asn': {174: 174, 5511: 5511}, 'interdomain': True}
+e 5511, 6453, {'latency': 0.0, 'asn': {6453: 6453, 5511: 5511}, 'city': {6453: 'Palo Alto, CA', 5511: 'Palo Alto, CA'}, 'interdomain': True}
+e 5511, 6461, {'latency': 0.0, 'city': {6461: 'London, UnitedKingdom', 5511: 'London, UnitedKingdom'}, 'asn': {6461: 6461, 5511: 5511}, 'interdomain': True}
+e 5511, 702, {'latency': 0.0, 'asn': {702: 702, 5511: 5511}, 'city': {702: 'Paris, France', 5511: 'Paris, France'}, 'interdomain': True}
+e 5511, 4544, {'latency': 0.0641339826459877, 'city': {4544: 'Sunnyvale, CA', 5511: 'Palo Alto, CA'}, 'asn': {4544: 4544, 5511: 5511}, 'interdomain': True}
+e 5511, 209, {'latency': 0.225316255475169, 'asn': {209: 209, 5511: 5511}, 'city': {209: 'Washington, DC', 5511: 'Ashburn, VA'}, 'interdomain': True}
+e 5511, 1239, {'latency': 0.0, 'asn': {1239: 1239, 5511: 5511}, 'city': {1239: 'Paris, France', 5511: 'Paris, France'}, 'interdomain': True}
+e 5511, 3549, {'latency': 0.0, 'asn': {3549: 3549, 5511: 5511}, 'city': {3549: 'Tokyo, Japan', 5511: 'Tokyo, Japan'}, 'interdomain': True}
+e 5511, 2914, {'latency': 0.124477546789977, 'asn': {2914: 2914, 5511: 5511}, 'city': {2914: 'Palo Alto, CA', 5511: 'San Jose, CA'}, 'interdomain': True}
+e 5511, 3561, {'latency': 0.124477546789977, 'asn': {3561: 3561, 5511: 5511}, 'city': {3561: 'Palo Alto, CA', 5511: 'San Jose, CA'}, 'interdomain': True}
+e 5511, 7018, {'latency': 0.0, 'asn': {7018: 7018, 5511: 5511}, 'city': {7018: 'Palo Alto, CA', 5511: 'Palo Alto, CA'}, 'interdomain': True}
+e 5511, 701, {'latency': 0.0, 'asn': {701: 701, 5511: 5511}, 'city': {701: 'Washington, DC', 5511: 'Washington, DC'}, 'interdomain': True}
+e 5511, 4755, {'latency': 0.0, 'city': {4755: 'London, UnitedKingdom', 5511: 'London, UnitedKingdom'}, 'asn': {4755: 4755, 5511: 5511}, 'interdomain': True}
+e 5511, 16631, {'latency': 0.225316255475169, 'city': {5511: 'Ashburn, VA', 16631: 'Washington, DC'}, 'asn': {5511: 5511, 16631: 16631}, 'interdomain': True}
+e 5511, 3320, {'latency': 0.0, 'city': {3320: 'Geneva, Switzerland', 5511: 'Geneva, Switzerland'}, 'asn': {3320: 3320, 5511: 5511}, 'interdomain': True}
+e 5511, 6395, {'latency': 0.0, 'city': {6395: 'Chicago, IL', 5511: 'Chicago, IL'}, 'asn': {6395: 6395, 5511: 5511}, 'interdomain': True}
+e 5511, 2686, {'latency': 0.0, 'city': {2686: 'London, UnitedKingdom', 5511: 'London, UnitedKingdom'}, 'asn': {2686: 2686, 5511: 5511}, 'interdomain': True}
+e 7176, 2914, {'latency': 0.0, 'city': {7176: 'Tokyo, Japan', 2914: 'Tokyo, Japan'}, 'asn': {7176: 7176, 2914: 2914}, 'interdomain': True}
+e 7176, 9070, {'latency': 0.0, 'city': {7176: 'Brussels, Belgium', 9070: 'Brussels, Belgium'}, 'asn': {7176: 7176, 9070: 9070}, 'interdomain': True}
+e 7176, 4637, {'latency': 0.0, 'city': {7176: 'London, UnitedKingdom', 4637: 'London, UnitedKingdom'}, 'asn': {7176: 7176, 4637: 4637}, 'interdomain': True}
+e 7176, 1299, {'latency': 0.0, 'asn': {7176: 7176, 1299: 1299}, 'city': {7176: 'Frankfurt, Germany', 1299: 'Frankfurt, Germany'}, 'interdomain': True}
+e 7176, 5400, {'latency': 0.0, 'asn': {5400: 5400, 7176: 7176}, 'city': {5400: 'London, UnitedKingdom', 7176: 'London, UnitedKingdom'}, 'interdomain': True}
+e 7176, 3549, {'latency': 0.0, 'asn': {7176: 7176, 3549: 3549}, 'city': {7176: 'Sao Paolo, Brazil', 3549: 'Sao Paolo, Brazil'}, 'interdomain': True}
+e 7176, 3356, {'latency': 0.0, 'city': {7176: 'Frankfurt, Germany', 3356: 'Frankfurt, Germany'}, 'asn': {7176: 7176, 3356: 3356}, 'interdomain': True}
+e 7176, 6461, {'latency': 0.0, 'city': {7176: 'London, UnitedKingdom', 6461: 'London, UnitedKingdom'}, 'asn': {7176: 7176, 6461: 6461}, 'interdomain': True}
+e 7176, 10910, {'latency': 0.0, 'city': {7176: 'London, UnitedKingdom', 10910: 'London, UnitedKingdom'}, 'asn': {7176: 7176, 10910: 10910}, 'interdomain': True}
+e 6539, 2914, {'latency': 0.959333136541764, 'asn': {2914: 2914, 6539: 6539}, 'city': {2914: 'Seattle, WA', 6539: 'Vancouver, Canada'}, 'interdomain': True}
+e 6539, 4323, {'latency': 3.52496412161527, 'city': {4323: 'Chicago, IL', 6539: 'Toronto, Canada'}, 'asn': {4323: 4323, 6539: 6539}, 'interdomain': True}
+e 6539, 3561, {'latency': 0.959333136541764, 'asn': {3561: 3561, 6539: 6539}, 'city': {3561: 'Seattle, WA', 6539: 'Vancouver, Canada'}, 'interdomain': True}
+e 6539, 3602, {'latency': 0.0, 'city': {3602: 'Calgary, Canada', 6539: 'Calgary, Canada'}, 'asn': {3602: 3602, 6539: 6539}, 'interdomain': True}
+e 6539, 852, {'latency': 0.0, 'city': {6539: 'Vancouver, Canada', 852: 'Vancouver, Canada'}, 'asn': {6539: 6539, 852: 852}, 'interdomain': True}
+e 6539, 6395, {'latency': 3.52496412161527, 'city': {6395: 'Chicago, IL', 6539: 'Toronto, Canada'}, 'asn': {6395: 6395, 6539: 6539}, 'interdomain': True}
+e 6539, 701, {'latency': 0.0, 'city': {6539: 'Vancouver, Canada', 701: 'Vancouver, Canada'}, 'asn': {6539: 6539, 701: 701}, 'interdomain': True}
+e 2828, 5650, {'latency': 0.124477546789977, 'asn': {5650: 5650, 2828: 2828}, 'city': {5650: 'San Jose, CA', 2828: 'Palo Alto, CA'}, 'interdomain': True}
+e 2828, 5400, {'latency': 0.0, 'city': {5400: 'Ashburn, VA', 2828: 'Ashburn, VA'}, 'asn': {5400: 5400, 2828: 2828}, 'interdomain': True}
+e 2828, 3356, {'latency': 0.0, 'asn': {2828: 2828, 3356: 3356}, 'city': {2828: 'San Jose, CA', 3356: 'San Jose, CA'}, 'interdomain': True}
+e 2828, 4637, {'latency': 0.0, 'city': {2828: 'Los Angeles, CA', 4637: 'Los Angeles, CA'}, 'asn': {2828: 2828, 4637: 4637}, 'interdomain': True}
+e 2828, 4006, {'latency': 0.261255074734326, 'city': {2828: 'Palo Alto, CA', 4006: 'San Francisco, CA'}, 'asn': {2828: 2828, 4006: 4006}, 'interdomain': True}
+e 2828, 174, {'latency': 0.0, 'asn': {2828: 2828, 174: 174}, 'city': {2828: 'Washington, DC', 174: 'Washington, DC'}, 'interdomain': True}
+e 2828, 6453, {'latency': 0.0, 'city': {2828: 'Los Angeles, CA', 6453: 'Los Angeles, CA'}, 'asn': {2828: 2828, 6453: 6453}, 'interdomain': True}
+e 2828, 701, {'latency': 0.0, 'asn': {2828: 2828, 701: 701}, 'city': {2828: 'Washington, DC', 701: 'Washington, DC'}, 'interdomain': True}
+e 2828, 702, {'latency': 0.0, 'city': {2828: 'London, UnitedKingdom', 702: 'London, UnitedKingdom'}, 'asn': {2828: 2828, 702: 702}, 'interdomain': True}
+e 2828, 577, {'latency': 0.0, 'city': {577: 'Chicago, IL', 2828: 'Chicago, IL'}, 'asn': {577: 577, 2828: 2828}, 'interdomain': True}
+e 2828, 209, {'latency': 0.0, 'asn': {209: 209, 2828: 2828}, 'city': {209: 'Palo Alto, CA', 2828: 'Palo Alto, CA'}, 'interdomain': True}
+e 2828, 1239, {'latency': 0.0, 'asn': {2828: 2828, 1239: 1239}, 'city': {2828: 'Washington, DC', 1239: 'Washington, DC'}, 'interdomain': True}
+e 2828, 7132, {'latency': 0.0, 'city': {2828: 'Palo Alto, CA', 7132: 'Palo Alto, CA'}, 'asn': {2828: 2828, 7132: 7132}, 'interdomain': True}
+e 2828, 3549, {'latency': 0.124477546789977, 'asn': {2828: 2828, 3549: 3549}, 'city': {2828: 'San Jose, CA', 3549: 'Palo Alto, CA'}, 'interdomain': True}
+e 2828, 2914, {'latency': 0.0, 'asn': {2914: 2914, 2828: 2828}, 'city': {2914: 'San Jose, CA', 2828: 'San Jose, CA'}, 'interdomain': True}
+e 2828, 4323, {'latency': 0.0, 'asn': {4323: 4323, 2828: 2828}, 'city': {4323: 'San Francisco, CA', 2828: 'San Francisco, CA'}, 'interdomain': True}
+e 2828, 7911, {'latency': 0.0, 'city': {2828: 'Palo Alto, CA', 7911: 'Palo Alto, CA'}, 'asn': {2828: 2828, 7911: 7911}, 'interdomain': True}
+e 2828, 3561, {'latency': 0.124477546789977, 'asn': {3561: 3561, 2828: 2828}, 'city': {3561: 'Palo Alto, CA', 2828: 'San Jose, CA'}, 'interdomain': True}
+e 2828, 7018, {'latency': 0.0, 'asn': {7018: 7018, 2828: 2828}, 'city': {7018: 'Washington, DC', 2828: 'Washington, DC'}, 'interdomain': True}
+e 2828, 6461, {'latency': 0.0, 'city': {2828: 'Palo Alto, CA', 6461: 'Palo Alto, CA'}, 'asn': {2828: 2828, 6461: 6461}, 'interdomain': True}
+e 2828, 16631, {'latency': 0.0, 'city': {2828: 'Washington, DC', 16631: 'Washington, DC'}, 'asn': {2828: 2828, 16631: 16631}, 'interdomain': True}
+e 2828, 1785, {'latency': 0.0, 'city': {1785: 'Washington, DC', 2828: 'Washington, DC'}, 'asn': {1785: 1785, 2828: 2828}, 'interdomain': True}
+e 2828, 6395, {'latency': 0.0, 'asn': {6395: 6395, 2828: 2828}, 'city': {6395: 'Washington, DC', 2828: 'Washington, DC'}, 'interdomain': True}
+e 4589, 4323, {'latency': 0.0, 'city': {4323: 'New York, NY', 4589: 'New York, NY'}, 'asn': {4323: 4323, 4589: 4589}, 'interdomain': True}
+e 4589, 3300, {'latency': 0.303068368870065, 'asn': {3300: 3300, 4589: 4589}, 'city': {3300: 'Amsterdam, Netherlands', 4589: 'Rotterdam, Netherlands'}, 'interdomain': True}
+e 4589, 7911, {'latency': 0.0, 'city': {4589: 'London, UnitedKingdom', 7911: 'London, UnitedKingdom'}, 'asn': {4589: 4589, 7911: 7911}, 'interdomain': True}
+e 4589, 13129, {'latency': 0.0, 'city': {13129: 'Hamburg, Germany', 4589: 'Hamburg, Germany'}, 'asn': {13129: 13129, 4589: 4589}, 'interdomain': True}
+e 4589, 6461, {'latency': 0.0, 'city': {4589: 'London, UnitedKingdom', 6461: 'London, UnitedKingdom'}, 'asn': {4589: 4589, 6461: 6461}, 'interdomain': True}
+e 4589, 1299, {'latency': 0.0, 'asn': {1299: 1299, 4589: 4589}, 'city': {1299: 'Paris, France', 4589: 'Paris, France'}, 'interdomain': True}
+e 4589, 3561, {'latency': 0.0, 'asn': {3561: 3561, 4589: 4589}, 'city': {3561: 'New York, NY', 4589: 'New York, NY'}, 'interdomain': True}
+e 4589, 3356, {'latency': 0.0, 'asn': {3356: 3356, 4589: 4589}, 'city': {3356: 'London, UnitedKingdom', 4589: 'London, UnitedKingdom'}, 'interdomain': True}
+e 4589, 3549, {'latency': 0.0, 'city': {3549: 'London, UnitedKingdom', 4589: 'London, UnitedKingdom'}, 'asn': {3549: 3549, 4589: 4589}, 'interdomain': True}
+e 11537, 101, {'latency': 5.68752395038991, 'asn': {11537: 11537, 101: 101}, 'city': {11537: 'Sunnyvale, CA', 101: 'Seattle, WA'}, 'interdomain': True}
+e 11537, 7018, {'latency': 0.0, 'asn': {11537: 11537, 7018: 7018}, 'city': {11537: 'Washington, DC', 7018: 'Washington, DC'}, 'interdomain': True}
+e 11537, 1239, {'latency': 15.1381722075874, 'city': {11537: 'Indianapolis, IN', 1239: 'Stockton, CA'}, 'asn': {11537: 11537, 1239: 1239}, 'interdomain': True}
+e 11537, 6509, {'latency': 0.0, 'asn': {11537: 11537, 6509: 6509}, 'city': {11537: 'Winnipeg, Canada', 6509: 'Winnipeg, Canada'}, 'interdomain': True}
+e 11537, 209, {'latency': 0.0, 'asn': {209: 209, 11537: 11537}, 'city': {209: 'Denver, CO', 11537: 'Denver, CO'}, 'interdomain': True}
+e 11537, 16631, {'latency': 0.323328237108265, 'city': {11537: 'Sunnyvale, CA', 16631: 'San Francisco, CA'}, 'asn': {11537: 11537, 16631: 16631}, 'interdomain': True}
+e 11537, 4600, {'latency': 3.73253661657925, 'asn': {4600: 4600, 11537: 11537}, 'city': {4600: 'Eugene, OR', 11537: 'Sunnyvale, CA'}, 'interdomain': True}
+e 12050, 2914, {'latency': 0.0, 'asn': {2914: 2914, 12050: 12050}, 'city': {2914: 'Palo Alto, CA', 12050: 'Palo Alto, CA'}, 'interdomain': True}
+e 12050, 4323, {'latency': 0.0, 'city': {12050: 'Chicago, IL', 4323: 'Chicago, IL'}, 'asn': {12050: 12050, 4323: 4323}, 'interdomain': True}
+e 12050, 16631, {'latency': 0.0, 'asn': {12050: 12050, 16631: 16631}, 'city': {12050: 'Washington, DC', 16631: 'Washington, DC'}, 'interdomain': True}
+e 12050, 1785, {'latency': 0.0, 'city': {1785: 'Washington, DC', 12050: 'Washington, DC'}, 'asn': {1785: 1785, 12050: 12050}, 'interdomain': True}
+e 12050, 6395, {'latency': 0.0, 'asn': {12050: 12050, 6395: 6395}, 'city': {12050: 'Washington, DC', 6395: 'Washington, DC'}, 'interdomain': True}
+e 12050, 3356, {'latency': 0.0, 'asn': {12050: 12050, 3356: 3356}, 'city': {12050: 'San Jose, CA', 3356: 'San Jose, CA'}, 'interdomain': True}
+e 12050, 3549, {'latency': 0.0, 'city': {12050: 'Chicago, IL', 3549: 'Chicago, IL'}, 'asn': {12050: 12050, 3549: 3549}, 'interdomain': True}
+e 1299, 5400, {'latency': 0.0, 'asn': {5400: 5400, 1299: 1299}, 'city': {5400: 'Milan, Italy', 1299: 'Milan, Italy'}, 'interdomain': True}
+e 1299, 3356, {'latency': 0.0, 'asn': {1299: 1299, 3356: 3356}, 'city': {1299: 'San Jose, CA', 3356: 'San Jose, CA'}, 'interdomain': True}
+e 1299, 4637, {'latency': 100000.0, 'city': {1299: 'New York, NY', 4637: 'xeig'}, 'asn': {1299: 1299, 4637: 4637}, 'interdomain': True}
+e 1299, 5669, {'latency': 0.0, 'city': {1299: 'Paris, France', 5669: 'Paris, France'}, 'asn': {1299: 1299, 5669: 5669}, 'interdomain': True}
+e 1299, 174, {'latency': 0.0, 'city': {1299: 'London, UnitedKingdom', 174: 'London, UnitedKingdom'}, 'asn': {1299: 1299, 174: 174}, 'interdomain': True}
+e 1299, 6453, {'latency': 0.0, 'asn': {1299: 1299, 6453: 6453}, 'city': {1299: 'New York, NY', 6453: 'New York, NY'}, 'interdomain': True}
+e 1299, 3257, {'latency': 0.0, 'asn': {3257: 3257, 1299: 1299}, 'city': {3257: 'Zurich, Switzerland', 1299: 'Zurich, Switzerland'}, 'interdomain': True}
+e 1299, 701, {'latency': 0.0, 'asn': {1299: 1299, 701: 701}, 'city': {1299: 'Palo Alto, CA', 701: 'Palo Alto, CA'}, 'interdomain': True}
+e 1299, 702, {'latency': 0.0, 'asn': {1299: 1299, 702: 702}, 'city': {1299: 'Stockholm, Sweden', 702: 'Stockholm, Sweden'}, 'interdomain': True}
+e 1299, 577, {'latency': 0.0, 'asn': {577: 577, 1299: 1299}, 'city': {577: 'New York, NY', 1299: 'New York, NY'}, 'interdomain': True}
+e 1299, 209, {'latency': 0.0926850068982159, 'asn': {209: 209, 1299: 1299}, 'city': {209: 'Palo Alto, CA', 1299: 'Santa Clara, CA'}, 'interdomain': True}
+e 1299, 852, {'latency': 0.0, 'asn': {1299: 1299, 852: 852}, 'city': {1299: 'New York, NY', 852: 'New York, NY'}, 'interdomain': True}
+e 1299, 1239, {'latency': 0.0, 'asn': {1299: 1299, 1239: 1239}, 'city': {1299: 'Stockholm, Sweden', 1239: 'Stockholm, Sweden'}, 'interdomain': True}
+e 1299, 7132, {'latency': 0.0, 'asn': {1299: 1299, 7132: 7132}, 'city': {1299: 'Santa Clara, CA', 7132: 'Santa Clara, CA'}, 'interdomain': True}
+e 1299, 3549, {'latency': 0.0, 'asn': {1299: 1299, 3549: 3549}, 'city': {1299: 'New York, NY', 3549: 'New York, NY'}, 'interdomain': True}
+e 1299, 2914, {'latency': 0.0926850068982159, 'asn': {2914: 2914, 1299: 1299}, 'city': {2914: 'Palo Alto, CA', 1299: 'Santa Clara, CA'}, 'interdomain': True}
+e 1299, 3300, {'latency': 0.0, 'asn': {1299: 1299, 3300: 3300}, 'city': {1299: 'London, UnitedKingdom', 3300: 'London, UnitedKingdom'}, 'interdomain': True}
+e 1299, 7911, {'latency': 1.73713298493035, 'asn': {1299: 1299, 7911: 7911}, 'city': {1299: 'New York, NY', 7911: 'Herndon, VA'}, 'interdomain': True}
+e 1299, 3561, {'latency': 0.0, 'asn': {3561: 3561, 1299: 1299}, 'city': {3561: 'Paris, France', 1299: 'Paris, France'}, 'interdomain': True}
+e 1299, 7018, {'latency': 0.352097076827034, 'asn': {7018: 7018, 1299: 1299}, 'city': {7018: 'San Francisco, CA', 1299: 'Santa Clara, CA'}, 'interdomain': True}
+e 1299, 6461, {'latency': 0.0, 'asn': {1299: 1299, 6461: 6461}, 'city': {1299: 'New York, NY', 6461: 'New York, NY'}, 'interdomain': True}
+e 1299, 2548, {'latency': 0.0, 'city': {1299: 'New York, NY', 2548: 'New York, NY'}, 'asn': {1299: 1299, 2548: 2548}, 'interdomain': True}
+e 1299, 16631, {'latency': 0.0, 'city': {1299: 'New York, NY', 16631: 'New York, NY'}, 'asn': {1299: 1299, 16631: 16631}, 'interdomain': True}
+e 1299, 3320, {'latency': 0.0, 'asn': {3320: 3320, 1299: 1299}, 'city': {3320: 'London, UnitedKingdom', 1299: 'London, UnitedKingdom'}, 'interdomain': True}
+e 5400, 4544, {'latency': 0.0, 'city': {4544: 'Chicago, IL', 5400: 'Chicago, IL'}, 'asn': {4544: 4544, 5400: 5400}, 'interdomain': True}
+e 5400, 2914, {'latency': 0.0, 'asn': {5400: 5400, 2914: 2914}, 'city': {5400: 'Singapore', 2914: 'Singapore'}, 'interdomain': True}
+e 5400, 4323, {'latency': 5.72539765160039, 'asn': {5400: 5400, 4323: 4323}, 'city': {5400: 'New York, NY', 4323: 'Chicago, IL'}, 'interdomain': True}
+e 5400, 7911, {'latency': 0.0, 'city': {5400: 'Washington, DC', 7911: 'Washington, DC'}, 'asn': {5400: 5400, 7911: 7911}, 'interdomain': True}
+e 5400, 3561, {'latency': 0.0, 'city': {5400: 'London, UnitedKingdom', 3561: 'London, UnitedKingdom'}, 'asn': {5400: 5400, 3561: 3561}, 'interdomain': True}
+e 5400, 7018, {'latency': 9.49836499313979, 'asn': {5400: 5400, 7018: 7018}, 'city': {5400: 'Washington, DC', 7018: 'Dallas, TX'}, 'interdomain': True}
+e 5400, 16631, {'latency': 0.0, 'asn': {5400: 5400, 16631: 16631}, 'city': {5400: 'Washington, DC', 16631: 'Washington, DC'}, 'interdomain': True}
+e 5400, 3549, {'latency': 0.0, 'city': {5400: 'London, UnitedKingdom', 3549: 'London, UnitedKingdom'}, 'asn': {5400: 5400, 3549: 3549}, 'interdomain': True}
+e 5400, 209, {'latency': 0.0, 'asn': {5400: 5400, 209: 209}, 'city': {5400: 'Washington, DC', 209: 'Washington, DC'}, 'interdomain': True}
+e 5400, 6453, {'latency': 4.58678251895811, 'asn': {5400: 5400, 6453: 6453}, 'city': {5400: 'London, UnitedKingdom', 6453: 'Munich, Germany'}, 'interdomain': True}
+e 5400, 1239, {'latency': 0.0, 'city': {5400: 'Amsterdam, Netherlands', 1239: 'Amsterdam, Netherlands'}, 'asn': {5400: 5400, 1239: 1239}, 'interdomain': True}
+e 5400, 3257, {'latency': 0.0, 'city': {5400: 'London, UnitedKingdom', 3257: 'London, UnitedKingdom'}, 'asn': {5400: 5400, 3257: 3257}, 'interdomain': True}
+e 5400, 6395, {'latency': 0.0, 'asn': {5400: 5400, 6395: 6395}, 'city': {5400: 'Washington, DC', 6395: 'Washington, DC'}, 'interdomain': True}
+e 5400, 6461, {'latency': 0.0, 'city': {5400: 'London, UnitedKingdom', 6461: 'London, UnitedKingdom'}, 'asn': {5400: 5400, 6461: 6461}, 'interdomain': True}
+e 5400, 702, {'latency': 0.0, 'asn': {5400: 5400, 702: 702}, 'city': {5400: 'Stockholm, Sweden', 702: 'Stockholm, Sweden'}, 'interdomain': True}
+e 6939, 2914, {'latency': 0.0, 'asn': {2914: 2914, 6939: 6939}, 'city': {2914: 'Palo Alto, CA', 6939: 'Palo Alto, CA'}, 'interdomain': True}
+e 6939, 4323, {'latency': 0.0, 'asn': {6939: 6939, 4323: 4323}, 'city': {6939: 'Palo Alto, CA', 4323: 'Palo Alto, CA'}, 'interdomain': True}
+e 6939, 7911, {'latency': 0.0926850068982159, 'asn': {6939: 6939, 7911: 7911}, 'city': {6939: 'Palo Alto, CA', 7911: 'Santa Clara, CA'}, 'interdomain': True}
+e 6939, 3561, {'latency': 0.0, 'city': {3561: 'Palo Alto, CA', 6939: 'Palo Alto, CA'}, 'asn': {3561: 3561, 6939: 6939}, 'interdomain': True}
+e 6939, 16631, {'latency': 0.0, 'asn': {6939: 6939, 16631: 16631}, 'city': {6939: 'Washington, DC', 16631: 'Washington, DC'}, 'interdomain': True}
+e 6939, 6395, {'latency': 0.0, 'asn': {6939: 6939, 6395: 6395}, 'city': {6939: 'Washington, DC', 6395: 'Washington, DC'}, 'interdomain': True}
+e 6939, 3356, {'latency': 0.0, 'asn': {6939: 6939, 3356: 3356}, 'city': {6939: 'Washington, DC', 3356: 'Washington, DC'}, 'interdomain': True}
+e 6939, 6461, {'latency': 0.0, 'asn': {6939: 6939, 6461: 6461}, 'city': {6939: 'San Jose, CA', 6461: 'San Jose, CA'}, 'interdomain': True}
+e 3356, 5650, {'latency': 0.225316255475169, 'asn': {5650: 5650, 3356: 3356}, 'city': {5650: 'Ashburn, VA', 3356: 'Washington, DC'}, 'interdomain': True}
+e 3356, 8220, {'latency': 33.955291322258, 'asn': {3356: 3356, 8220: 8220}, 'city': {3356: 'New York, NY', 8220: 'Vienna, Austria'}, 'interdomain': True}
+e 3356, 4637, {'latency': 0.0, 'asn': {3356: 3356, 4637: 4637}, 'city': {3356: 'Washington, DC', 4637: 'Washington, DC'}, 'interdomain': True}
+e 3356, 10910, {'latency': 0.0, 'asn': {3356: 3356, 10910: 10910}, 'city': {3356: 'Washington, DC', 10910: 'Washington, DC'}, 'interdomain': True}
+e 3356, 4513, {'latency': 0.0, 'asn': {4513: 4513, 3356: 3356}, 'city': {4513: 'Washington, DC', 3356: 'Washington, DC'}, 'interdomain': True}
+e 3356, 5669, {'latency': 0.0, 'city': {3356: 'Frankfurt, Germany', 5669: 'Frankfurt, Germany'}, 'asn': {3356: 3356, 5669: 5669}, 'interdomain': True}
+e 3356, 4006, {'latency': 0.381420811600469, 'asn': {3356: 3356, 4006: 4006}, 'city': {3356: 'San Jose, CA', 4006: 'San Francisco, CA'}, 'interdomain': True}
+e 3356, 174, {'latency': 0.0, 'asn': {3356: 3356, 174: 174}, 'city': {3356: 'San Jose, CA', 174: 'San Jose, CA'}, 'interdomain': True}
+e 3356, 15412, {'latency': 0.0, 'asn': {3356: 3356, 15412: 15412}, 'city': {3356: 'San Francisco, CA', 15412: 'San Francisco, CA'}, 'interdomain': True}
+e 3356, 6453, {'latency': 1.57970979874265, 'asn': {3356: 3356, 6453: 6453}, 'city': {3356: 'Washington, DC', 6453: 'Newark, NJ'}, 'interdomain': True}
+e 3356, 3257, {'latency': 1.62733364571067, 'asn': {3257: 3257, 3356: 3356}, 'city': {3257: 'New York, NY', 3356: 'Washington, DC'}, 'interdomain': True}
+e 3356, 6461, {'latency': 0.0, 'asn': {3356: 3356, 6461: 6461}, 'city': {3356: 'Washington, DC', 6461: 'Washington, DC'}, 'interdomain': True}
+e 3356, 702, {'latency': 0.0, 'city': {3356: 'London, UnitedKingdom', 702: 'London, UnitedKingdom'}, 'asn': {3356: 3356, 702: 702}, 'interdomain': True}
+e 3356, 4544, {'latency': 0.225316255475169, 'asn': {4544: 4544, 3356: 3356}, 'city': {4544: 'Ashburn, VA', 3356: 'Washington, DC'}, 'interdomain': True}
+e 3356, 2497, {'latency': 0.0, 'asn': {2497: 2497, 3356: 3356}, 'city': {2497: 'San Jose, CA', 3356: 'San Jose, CA'}, 'interdomain': True}
+e 3356, 13129, {'latency': 0.0, 'city': {13129: 'Frankfurt, Germany', 3356: 'Frankfurt, Germany'}, 'asn': {13129: 13129, 3356: 3356}, 'interdomain': True}
+e 3356, 16631, {'latency': 0.0, 'asn': {3356: 3356, 16631: 16631}, 'city': {3356: 'Washington, DC', 16631: 'Washington, DC'}, 'interdomain': True}
+e 3356, 209, {'latency': 0.0, 'asn': {209: 209, 3356: 3356}, 'city': {209: 'Washington, DC', 3356: 'Washington, DC'}, 'interdomain': True}
+e 3356, 4565, {'latency': 0.0, 'asn': {3356: 3356, 4565: 4565}, 'city': {3356: 'Washington, DC', 4565: 'Washington, DC'}, 'interdomain': True}
+e 3356, 1239, {'latency': 0.207166302464815, 'asn': {3356: 3356, 1239: 1239}, 'city': {3356: 'Seattle, WA', 1239: 'Tacoma, WA'}, 'interdomain': True}
+e 3356, 11608, {'latency': 0.0, 'city': {11608: 'Seattle, WA', 3356: 'Seattle, WA'}, 'asn': {11608: 11608, 3356: 3356}, 'interdomain': True}
+e 3356, 3549, {'latency': 0.0, 'asn': {3356: 3356, 3549: 3549}, 'city': {3356: 'Palo Alto, CA', 3549: 'Palo Alto, CA'}, 'interdomain': True}
+e 3356, 2914, {'latency': 0.0, 'asn': {2914: 2914, 3356: 3356}, 'city': {2914: 'San Jose, CA', 3356: 'San Jose, CA'}, 'interdomain': True}
+e 3356, 4323, {'latency': 0.0, 'city': {4323: 'Charlotte, NC', 3356: 'Charlotte, NC'}, 'asn': {4323: 4323, 3356: 3356}, 'interdomain': True}
+e 3356, 3300, {'latency': 0.0, 'city': {3300: 'Amsterdam, Netherlands', 3356: 'Amsterdam, Netherlands'}, 'asn': {3300: 3300, 3356: 3356}, 'interdomain': True}
+e 3356, 101, {'latency': 0.0, 'city': {3356: 'Seattle, WA', 101: 'Seattle, WA'}, 'asn': {3356: 3356, 101: 101}, 'interdomain': True}
+e 3356, 7911, {'latency': 0.0, 'asn': {3356: 3356, 7911: 7911}, 'city': {3356: 'Washington, DC', 7911: 'Washington, DC'}, 'interdomain': True}
+e 3356, 3561, {'latency': 0.0, 'asn': {3561: 3561, 3356: 3356}, 'city': {3561: 'Washington, DC', 3356: 'Washington, DC'}, 'interdomain': True}
+e 3356, 7018, {'latency': 0.0, 'asn': {7018: 7018, 3356: 3356}, 'city': {7018: 'Washington, DC', 3356: 'Washington, DC'}, 'interdomain': True}
+e 3356, 701, {'latency': 0.0, 'asn': {3356: 3356, 701: 701}, 'city': {3356: 'Washington, DC', 701: 'Washington, DC'}, 'interdomain': True}
+e 3356, 2548, {'latency': 0.124477546789977, 'asn': {2548: 2548, 3356: 3356}, 'city': {2548: 'San Jose, CA', 3356: 'Palo Alto, CA'}, 'interdomain': True}
+e 3356, 4725, {'latency': 0.0, 'city': {3356: 'Palo Alto, CA', 4725: 'Palo Alto, CA'}, 'asn': {3356: 3356, 4725: 4725}, 'interdomain': True}
+e 3356, 7543, {'latency': 0.0, 'asn': {3356: 3356, 7543: 7543}, 'city': {3356: 'San Jose, CA', 7543: 'San Jose, CA'}, 'interdomain': True}
+e 3356, 3320, {'latency': 31.5982426456463, 'asn': {3320: 3320, 3356: 3356}, 'city': {3320: 'Zurich, Switzerland', 3356: 'New York, NY'}, 'interdomain': True}
+e 3356, 1785, {'latency': 0.0, 'city': {1785: 'New York, NY', 3356: 'New York, NY'}, 'asn': {1785: 1785, 3356: 3356}, 'interdomain': True}
+e 3356, 6395, {'latency': 0.0, 'asn': {6395: 6395, 3356: 3356}, 'city': {6395: 'San Francisco, CA', 3356: 'San Francisco, CA'}, 'interdomain': True}
+e 3356, 3967, {'latency': 0.0, 'city': {3356: 'San Jose, CA', 3967: 'San Jose, CA'}, 'asn': {3356: 3356, 3967: 3967}, 'interdomain': True}
+e 4637, 8220, {'latency': 0.0, 'city': {8220: 'London, UnitedKingdom', 4637: 'London, UnitedKingdom'}, 'asn': {8220: 8220, 4637: 4637}, 'interdomain': True}
+e 4637, 4006, {'latency': 0.0, 'city': {4637: 'San Francisco, CA', 4006: 'San Francisco, CA'}, 'asn': {4637: 4637, 4006: 4006}, 'interdomain': True}
+e 4637, 174, {'latency': 0.0, 'asn': {4637: 4637, 174: 174}, 'city': {4637: 'Washington, DC', 174: 'Washington, DC'}, 'interdomain': True}
+e 4637, 6461, {'latency': 0.0, 'city': {4637: 'Palo Alto, CA', 6461: 'Palo Alto, CA'}, 'asn': {4637: 4637, 6461: 6461}, 'interdomain': True}
+e 4637, 4544, {'latency': 0.0, 'city': {4544: 'Palo Alto, CA', 4637: 'Palo Alto, CA'}, 'asn': {4544: 4544, 4637: 4637}, 'interdomain': True}
+e 4637, 577, {'latency': 0.0, 'city': {577: 'New York, NY', 4637: 'New York, NY'}, 'asn': {577: 577, 4637: 4637}, 'interdomain': True}
+e 4637, 1221, {'latency': 0.0, 'asn': {1221: 1221, 4637: 4637}, 'city': {1221: 'Sydney, Australia', 4637: 'Sydney, Australia'}, 'interdomain': True}
+e 4637, 7543, {'latency': 0.0, 'asn': {4637: 4637, 7543: 7543}, 'city': {4637: 'Taipei, Taiwan', 7543: 'Taipei, Taiwan'}, 'interdomain': True}
+e 4637, 209, {'latency': 0.0, 'asn': {209: 209, 4637: 4637}, 'city': {209: 'San Jose, CA', 4637: 'San Jose, CA'}, 'interdomain': True}
+e 4637, 852, {'latency': 0.0, 'city': {852: 'Chicago, IL', 4637: 'Chicago, IL'}, 'asn': {852: 852, 4637: 4637}, 'interdomain': True}
+e 4637, 4565, {'latency': 0.479325312941084, 'city': {4565: 'Napa, CA', 4637: 'Palo Alto, CA'}, 'asn': {4565: 4565, 4637: 4637}, 'interdomain': True}
+e 4637, 1239, {'latency': 0.0, 'asn': {4637: 4637, 1239: 1239}, 'city': {4637: 'San Jose, CA', 1239: 'San Jose, CA'}, 'interdomain': True}
+e 4637, 7132, {'latency': 0.0, 'city': {7132: 'Dallas, TX', 4637: 'Dallas, TX'}, 'asn': {7132: 7132, 4637: 4637}, 'interdomain': True}
+e 4637, 2914, {'latency': 0.0, 'asn': {2914: 2914, 4637: 4637}, 'city': {2914: 'Palo Alto, CA', 4637: 'Palo Alto, CA'}, 'interdomain': True}
+e 4637, 4323, {'latency': 0.0, 'asn': {4323: 4323, 4637: 4637}, 'city': {4323: 'New York, NY', 4637: 'New York, NY'}, 'interdomain': True}
+e 4637, 3300, {'latency': 100000.0, 'asn': {3300: 3300, 4637: 4637}, 'city': {3300: 'tmhs', 4637: 'tmhs'}, 'interdomain': True}
+e 4637, 7911, {'latency': 0.225316255475169, 'city': {4637: 'Ashburn, VA', 7911: 'Washington, DC'}, 'asn': {4637: 4637, 7911: 7911}, 'interdomain': True}
+e 4637, 4755, {'latency': 0.0, 'city': {4755: 'New York, NY', 4637: 'New York, NY'}, 'asn': {4755: 4755, 4637: 4637}, 'interdomain': True}
+e 4637, 16631, {'latency': 0.0, 'asn': {4637: 4637, 16631: 16631}, 'city': {4637: 'Washington, DC', 16631: 'Washington, DC'}, 'interdomain': True}
+e 10910, 2497, {'latency': 0.0, 'city': {2497: 'Tokyo, Japan', 10910: 'Tokyo, Japan'}, 'asn': {2497: 2497, 10910: 10910}, 'interdomain': True}
+e 10910, 2914, {'latency': 0.0, 'asn': {2914: 2914, 10910: 10910}, 'city': {2914: 'Tokyo, Japan', 10910: 'Tokyo, Japan'}, 'interdomain': True}
+e 10910, 3561, {'latency': 0.0, 'asn': {3561: 3561, 10910: 10910}, 'city': {3561: 'Washington, DC', 10910: 'Washington, DC'}, 'interdomain': True}
+e 10910, 7018, {'latency': 0.0, 'asn': {7018: 7018, 10910: 10910}, 'city': {7018: 'Washington, DC', 10910: 'Washington, DC'}, 'interdomain': True}
+e 10910, 16631, {'latency': 0.0, 'city': {10910: 'Los Angeles, CA', 16631: 'Los Angeles, CA'}, 'asn': {10910: 10910, 16631: 16631}, 'interdomain': True}
+e 10910, 701, {'latency': 0.0, 'asn': {701: 701, 10910: 10910}, 'city': {701: 'Washington, DC', 10910: 'Washington, DC'}, 'interdomain': True}
+e 10910, 209, {'latency': 0.0, 'asn': {209: 209, 10910: 10910}, 'city': {209: 'Washington, DC', 10910: 'Washington, DC'}, 'interdomain': True}
+e 10910, 2548, {'latency': 0.0, 'asn': {2548: 2548, 10910: 10910}, 'city': {2548: 'Chicago, IL', 10910: 'Chicago, IL'}, 'interdomain': True}
+e 10910, 1239, {'latency': 0.0, 'asn': {10910: 10910, 1239: 1239}, 'city': {10910: 'Tacoma, WA', 1239: 'Tacoma, WA'}, 'interdomain': True}
+e 10910, 3549, {'latency': 0.0, 'asn': {3549: 3549, 10910: 10910}, 'city': {3549: 'Washington, DC', 10910: 'Washington, DC'}, 'interdomain': True}
+e 10910, 702, {'latency': 0.0, 'city': {702: 'London, UnitedKingdom', 10910: 'London, UnitedKingdom'}, 'asn': {702: 702, 10910: 10910}, 'interdomain': True}
+e 10910, 3967, {'latency': 0.0, 'city': {10910: 'San Francisco, CA', 3967: 'San Francisco, CA'}, 'asn': {10910: 10910, 3967: 3967}, 'interdomain': True}
+e 4513, 2914, {'latency': 0.0791793285538616, 'asn': {4513: 4513, 2914: 2914}, 'city': {4513: 'Washington, DC', 2914: 'McLean, VA'}, 'interdomain': True}
+e 4513, 4323, {'latency': 0.114850126520913, 'asn': {4513: 4513, 4323: 4323}, 'city': {4513: 'Washington, DC', 4323: 'Vienna, VA'}, 'interdomain': True}
+e 4513, 101, {'latency': 0.0, 'city': {4513: 'Seattle, WA', 101: 'Seattle, WA'}, 'asn': {4513: 4513, 101: 101}, 'interdomain': True}
+e 4513, 7018, {'latency': 0.0, 'asn': {4513: 4513, 7018: 7018}, 'city': {4513: 'New York, NY', 7018: 'New York, NY'}, 'interdomain': True}
+e 4513, 1239, {'latency': 0.0, 'asn': {4513: 4513, 1239: 1239}, 'city': {4513: 'San Jose, CA', 1239: 'San Jose, CA'}, 'interdomain': True}
+e 4513, 174, {'latency': 0.0, 'asn': {4513: 4513, 174: 174}, 'city': {4513: 'Washington, DC', 174: 'Washington, DC'}, 'interdomain': True}
+e 4513, 701, {'latency': 0.381420811600469, 'asn': {4513: 4513, 701: 701}, 'city': {4513: 'San Jose, CA', 701: 'San Francisco, CA'}, 'interdomain': True}
+e 4513, 15412, {'latency': 0.0, 'city': {4513: 'New York, NY', 15412: 'New York, NY'}, 'asn': {4513: 4513, 15412: 15412}, 'interdomain': True}
+e 4513, 16631, {'latency': 0.0, 'city': {4513: 'Washington, DC', 16631: 'Washington, DC'}, 'asn': {4513: 4513, 16631: 16631}, 'interdomain': True}
+e 4513, 1785, {'latency': 0.0, 'city': {1785: 'Washington, DC', 4513: 'Washington, DC'}, 'asn': {1785: 1785, 4513: 4513}, 'interdomain': True}
+e 4513, 6395, {'latency': 0.0, 'asn': {4513: 4513, 6395: 6395}, 'city': {4513: 'Washington, DC', 6395: 'Washington, DC'}, 'interdomain': True}
+e 4513, 3549, {'latency': 0.0, 'city': {4513: 'London, UnitedKingdom', 3549: 'London, UnitedKingdom'}, 'asn': {4513: 4513, 3549: 3549}, 'interdomain': True}
+e 5669, 2914, {'latency': 27.8377559786444, 'city': {2914: 'New York, NY', 5669: 'London, UnitedKingdom'}, 'asn': {2914: 2914, 5669: 5669}, 'interdomain': True}
+e 5669, 3320, {'latency': 0.0, 'city': {3320: 'Frankfurt, Germany', 5669: 'Frankfurt, Germany'}, 'asn': {3320: 3320, 5669: 5669}, 'interdomain': True}
+e 5669, 8220, {'latency': 0.0, 'city': {8220: 'London, UnitedKingdom', 5669: 'London, UnitedKingdom'}, 'asn': {8220: 8220, 5669: 5669}, 'interdomain': True}
+e 5669, 6461, {'latency': 0.0, 'asn': {5669: 5669, 6461: 6461}, 'city': {5669: 'London, UnitedKingdom', 6461: 'London, UnitedKingdom'}, 'interdomain': True}
+e 4006, 3561, {'latency': 0.0, 'asn': {3561: 3561, 4006: 4006}, 'city': {3561: 'San Francisco, CA', 4006: 'San Francisco, CA'}, 'interdomain': True}
+e 4006, 7132, {'latency': 0.0, 'asn': {7132: 7132, 4006: 4006}, 'city': {7132: 'San Francisco, CA', 4006: 'San Francisco, CA'}, 'interdomain': True}
+e 4006, 7018, {'latency': 0.0, 'asn': {7018: 7018, 4006: 4006}, 'city': {7018: 'San Francisco, CA', 4006: 'San Francisco, CA'}, 'interdomain': True}
+e 4006, 174, {'latency': 0.0, 'city': {174: 'Atlanta, GA', 4006: 'Atlanta, GA'}, 'asn': {174: 174, 4006: 4006}, 'interdomain': True}
+e 4006, 701, {'latency': 0.268573287761392, 'asn': {701: 701, 4006: 4006}, 'city': {701: 'Dallas, TX', 4006: 'Fort Worth, TX'}, 'interdomain': True}
+e 4006, 6461, {'latency': 0.381420811600469, 'asn': {6461: 6461, 4006: 4006}, 'city': {6461: 'San Jose, CA', 4006: 'San Francisco, CA'}, 'interdomain': True}
+e 4006, 209, {'latency': 0.261255074734326, 'asn': {209: 209, 4006: 4006}, 'city': {209: 'Palo Alto, CA', 4006: 'San Francisco, CA'}, 'interdomain': True}
+e 4006, 2548, {'latency': 0.381420811600469, 'asn': {2548: 2548, 4006: 4006}, 'city': {2548: 'San Jose, CA', 4006: 'San Francisco, CA'}, 'interdomain': True}
+e 4006, 4565, {'latency': 1.26688413752394, 'asn': {4565: 4565, 4006: 4006}, 'city': {4565: 'San Franciso, CA', 4006: 'San Francisco, CA'}, 'interdomain': True}
+e 4006, 16631, {'latency': 0.0, 'asn': {4006: 4006, 16631: 16631}, 'city': {4006: 'San Francisco, CA', 16631: 'San Francisco, CA'}, 'interdomain': True}
+e 4006, 3320, {'latency': 31.5982426456463, 'asn': {3320: 3320, 4006: 4006}, 'city': {3320: 'Zurich, Switzerland', 4006: 'New York, NY'}, 'interdomain': True}
+e 4006, 3549, {'latency': 0.261255074734326, 'asn': {3549: 3549, 4006: 4006}, 'city': {3549: 'Palo Alto, CA', 4006: 'San Francisco, CA'}, 'interdomain': True}
+e 4006, 3967, {'latency': 0.261255074734326, 'asn': {4006: 4006, 3967: 3967}, 'city': {4006: 'San Francisco, CA', 3967: 'Palo Alto, CA'}, 'interdomain': True}
+e 4006, 4725, {'latency': 0.261255074734326, 'asn': {4725: 4725, 4006: 4006}, 'city': {4725: 'Palo Alto, CA', 4006: 'San Francisco, CA'}, 'interdomain': True}
+e 8220, 2914, {'latency': 0.0, 'city': {2914: 'Frankfurt, Germany', 8220: 'Frankfurt, Germany'}, 'asn': {2914: 2914, 8220: 8220}, 'interdomain': True}
+e 8220, 4323, {'latency': 33.955291322258, 'asn': {4323: 4323, 8220: 8220}, 'city': {4323: 'New York, NY', 8220: 'Vienna, Austria'}, 'interdomain': True}
+e 8220, 7911, {'latency': 0.0, 'city': {8220: 'London, UnitedKingdom', 7911: 'London, UnitedKingdom'}, 'asn': {8220: 8220, 7911: 7911}, 'interdomain': True}
+e 8220, 3561, {'latency': 0.0, 'asn': {3561: 3561, 8220: 8220}, 'city': {3561: 'Paris, France', 8220: 'Paris, France'}, 'interdomain': True}
+e 8220, 6461, {'latency': 0.0, 'asn': {8220: 8220, 6461: 6461}, 'city': {8220: 'Paris, France', 6461: 'Paris, France'}, 'interdomain': True}
+e 8220, 702, {'latency': 0.0, 'city': {8220: 'Paris, France', 702: 'Paris, France'}, 'asn': {8220: 8220, 702: 702}, 'interdomain': True}
+e 8220, 1239, {'latency': 0.0, 'city': {8220: 'Paris, France', 1239: 'Paris, France'}, 'asn': {8220: 8220, 1239: 1239}, 'interdomain': True}
+e 8220, 3320, {'latency': 30.8889978988307, 'asn': {3320: 3320, 8220: 8220}, 'city': {3320: 'Sterling, VA', 8220: 'Frankfurt, Germany'}, 'interdomain': True}
+e 8220, 1785, {'latency': 0.0, 'asn': {1785: 1785, 8220: 8220}, 'city': {1785: 'Syracuse, NY', 8220: 'Syracuse, NY'}, 'interdomain': True}
+e 8220, 3549, {'latency': 0.0, 'city': {8220: 'London, UnitedKingdom', 3549: 'London, UnitedKingdom'}, 'asn': {8220: 8220, 3549: 3549}, 'interdomain': True}
+e 8220, 2686, {'latency': 0.0, 'city': {8220: 'Munich, Germany', 2686: 'Munich, Germany'}, 'asn': {8220: 8220, 2686: 2686}, 'interdomain': True}
+e 174, 6453, {'latency': 0.261255074734326, 'asn': {6453: 6453, 174: 174}, 'city': {6453: 'Palo Alto, CA', 174: 'San Francisco, CA'}, 'interdomain': True}
+e 174, 701, {'latency': 0.0, 'asn': {701: 701, 174: 174}, 'city': {701: 'Washington, DC', 174: 'Washington, DC'}, 'interdomain': True}
+e 174, 577, {'latency': 0.0, 'city': {577: 'Chicago, IL', 174: 'Chicago, IL'}, 'asn': {577: 577, 174: 174}, 'interdomain': True}
+e 174, 209, {'latency': 0.323328237108265, 'asn': {209: 209, 174: 174}, 'city': {209: 'Sunnyvale, CA', 174: 'San Francisco, CA'}, 'interdomain': True}
+e 174, 852, {'latency': 0.0, 'asn': {852: 852, 174: 174}, 'city': {852: 'Toronto, Canada', 174: 'Toronto, Canada'}, 'interdomain': True}
+e 174, 1239, {'latency': 0.0, 'asn': {174: 174, 1239: 1239}, 'city': {174: 'London, UnitedKingdom', 1239: 'London, UnitedKingdom'}, 'interdomain': True}
+e 174, 7132, {'latency': 0.225316255475169, 'asn': {7132: 7132, 174: 174}, 'city': {7132: 'Ashburn, VA', 174: 'Washington, DC'}, 'interdomain': True}
+e 174, 3549, {'latency': 0.0, 'asn': {3549: 3549, 174: 174}, 'city': {3549: 'Washington, DC', 174: 'Washington, DC'}, 'interdomain': True}
+e 174, 2914, {'latency': 0.225316255475169, 'asn': {2914: 2914, 174: 174}, 'city': {2914: 'Ashburn, VA', 174: 'Washington, DC'}, 'interdomain': True}
+e 174, 4323, {'latency': 0.0, 'asn': {4323: 4323, 174: 174}, 'city': {4323: 'Washington, DC', 174: 'Washington, DC'}, 'interdomain': True}
+e 174, 7911, {'latency': 0.0, 'asn': {174: 174, 7911: 7911}, 'city': {174: 'Washington, DC', 7911: 'Washington, DC'}, 'interdomain': True}
+e 174, 3561, {'latency': 0.146741247293788, 'asn': {3561: 3561, 174: 174}, 'city': {3561: 'Reston, VA', 174: 'Washington, DC'}, 'interdomain': True}
+e 174, 7018, {'latency': 0.0, 'asn': {7018: 7018, 174: 174}, 'city': {7018: 'San Francisco, CA', 174: 'San Francisco, CA'}, 'interdomain': True}
+e 174, 2548, {'latency': 0.0, 'asn': {2548: 2548, 174: 174}, 'city': {2548: 'Washington, DC', 174: 'Washington, DC'}, 'interdomain': True}
+e 174, 4725, {'latency': 43.8454372697837, 'city': {4725: 'Chiba, Japan', 174: 'Los Angeles, CA'}, 'asn': {4725: 4725, 174: 174}, 'interdomain': True}
+e 174, 16631, {'latency': 0.0, 'asn': {174: 174, 16631: 16631}, 'city': {174: 'Washington, DC', 16631: 'Washington, DC'}, 'interdomain': True}
+e 174, 3320, {'latency': 0.0, 'asn': {3320: 3320, 174: 174}, 'city': {3320: 'Washington, DC', 174: 'Washington, DC'}, 'interdomain': True}
+e 174, 6395, {'latency': 0.0, 'asn': {6395: 6395, 174: 174}, 'city': {6395: 'Washington, DC', 174: 'Washington, DC'}, 'interdomain': True}
+e 15412, 3561, {'latency': 41.9987966699939, 'asn': {3561: 3561, 15412: 15412}, 'city': {3561: 'Santa Clara, CA', 15412: 'Tokyo, Japan'}, 'interdomain': True}
+e 15412, 4323, {'latency': 0.0, 'city': {4323: 'New York, NY', 15412: 'New York, NY'}, 'asn': {4323: 4323, 15412: 15412}, 'interdomain': True}
+e 15412, 7911, {'latency': 0.0, 'city': {15412: 'London, UnitedKingdom', 7911: 'London, UnitedKingdom'}, 'asn': {15412: 15412, 7911: 7911}, 'interdomain': True}
+e 6453, 3602, {'latency': 0.0813949383372524, 'city': {3602: 'Toronto, Canada', 6453: 'Scarborough, Canada'}, 'asn': {3602: 3602, 6453: 6453}, 'interdomain': True}
+e 6453, 6461, {'latency': 0.0, 'asn': {6453: 6453, 6461: 6461}, 'city': {6453: 'Palo Alto, CA', 6461: 'Palo Alto, CA'}, 'interdomain': True}
+e 6453, 702, {'latency': 0.0, 'asn': {6453: 6453, 702: 702}, 'city': {6453: 'London, UnitedKingdom', 702: 'London, UnitedKingdom'}, 'interdomain': True}
+e 6453, 4544, {'latency': 0.0, 'city': {4544: 'Palo Alto, CA', 6453: 'Palo Alto, CA'}, 'asn': {4544: 4544, 6453: 6453}, 'interdomain': True}
+e 6453, 577, {'latency': 0.0, 'asn': {577: 577, 6453: 6453}, 'city': {577: 'Toronto, Canada', 6453: 'Toronto, Canada'}, 'interdomain': True}
+e 6453, 209, {'latency': 0.0, 'asn': {209: 209, 6453: 6453}, 'city': {209: 'Washington, DC', 6453: 'Washington, DC'}, 'interdomain': True}
+e 6453, 1239, {'latency': 0.0, 'asn': {6453: 6453, 1239: 1239}, 'city': {6453: 'Tacoma, WA', 1239: 'Tacoma, WA'}, 'interdomain': True}
+e 6453, 7132, {'latency': 1.69718579567516, 'city': {7132: 'Ashburn, VA', 6453: 'Newark, NJ'}, 'asn': {7132: 7132, 6453: 6453}, 'interdomain': True}
+e 6453, 3549, {'latency': 0.0, 'asn': {3549: 3549, 6453: 6453}, 'city': {3549: 'Palo Alto, CA', 6453: 'Palo Alto, CA'}, 'interdomain': True}
+e 6453, 2914, {'latency': 0.0, 'asn': {2914: 2914, 6453: 6453}, 'city': {2914: 'Seattle, WA', 6453: 'Seattle, WA'}, 'interdomain': True}
+e 6453, 3561, {'latency': 1.62733364571067, 'asn': {3561: 3561, 6453: 6453}, 'city': {3561: 'Washington, DC', 6453: 'New York, NY'}, 'interdomain': True}
+e 6453, 7018, {'latency': 0.0, 'asn': {7018: 7018, 6453: 6453}, 'city': {7018: 'Los Angeles, CA', 6453: 'Los Angeles, CA'}, 'interdomain': True}
+e 6453, 701, {'latency': 0.0, 'asn': {701: 701, 6453: 6453}, 'city': {701: 'New York, NY', 6453: 'New York, NY'}, 'interdomain': True}
+e 6453, 4755, {'latency': 0.0, 'asn': {4755: 4755, 6453: 6453}, 'city': {4755: 'Stockton, CA', 6453: 'Stockton, CA'}, 'interdomain': True}
+e 6453, 3320, {'latency': 31.5982426456463, 'asn': {3320: 3320, 6453: 6453}, 'city': {3320: 'Zurich, Switzerland', 6453: 'New York, NY'}, 'interdomain': True}
+e 6453, 6395, {'latency': 4.67700418361009, 'asn': {6395: 6395, 6453: 6453}, 'city': {6395: 'Salt Lake City, UT', 6453: 'Los Angeles, CA'}, 'interdomain': True}
+e 3257, 2914, {'latency': 0.0, 'asn': {3257: 3257, 2914: 2914}, 'city': {3257: 'San Jose, CA', 2914: 'San Jose, CA'}, 'interdomain': True}
+e 3257, 4323, {'latency': 0.114850126520913, 'asn': {3257: 3257, 4323: 4323}, 'city': {3257: 'Washington, DC', 4323: 'Vienna, VA'}, 'interdomain': True}
+e 3257, 7911, {'latency': 0.0, 'city': {3257: 'Washington, DC', 7911: 'Washington, DC'}, 'asn': {3257: 3257, 7911: 7911}, 'interdomain': True}
+e 3257, 3561, {'latency': 0.0, 'asn': {3257: 3257, 3561: 3561}, 'city': {3257: 'Paris, France', 3561: 'Paris, France'}, 'interdomain': True}
+e 3257, 1239, {'latency': 3.87862930965681, 'asn': {3257: 3257, 1239: 1239}, 'city': {3257: 'Zurich, Switzerland', 1239: 'London, UnitedKingdom'}, 'interdomain': True}
+e 3257, 701, {'latency': 0.0, 'city': {3257: 'New York, NY', 701: 'New York, NY'}, 'asn': {3257: 3257, 701: 701}, 'interdomain': True}
+e 3257, 209, {'latency': 1.62733364571067, 'asn': {209: 209, 3257: 3257}, 'city': {209: 'Washington, DC', 3257: 'New York, NY'}, 'interdomain': True}
+e 3257, 16631, {'latency': 0.0, 'asn': {3257: 3257, 16631: 16631}, 'city': {3257: 'Washington, DC', 16631: 'Washington, DC'}, 'interdomain': True}
+e 3257, 6395, {'latency': 0.0, 'asn': {3257: 3257, 6395: 6395}, 'city': {3257: 'Washington, DC', 6395: 'Washington, DC'}, 'interdomain': True}
+e 3257, 3549, {'latency': 0.0, 'asn': {3257: 3257, 3549: 3549}, 'city': {3257: 'London, UnitedKingdom', 3549: 'London, UnitedKingdom'}, 'interdomain': True}
+e 3257, 702, {'latency': 0.0, 'asn': {3257: 3257, 702: 702}, 'city': {3257: 'London, UnitedKingdom', 702: 'London, UnitedKingdom'}, 'interdomain': True}
+e 15290, 4544, {'latency': 0.0, 'city': {4544: 'Seattle, WA', 15290: 'Seattle, WA'}, 'asn': {4544: 4544, 15290: 15290}, 'interdomain': True}
+e 15290, 577, {'latency': 0.0, 'city': {577: 'Toronto, Canada', 15290: 'Toronto, Canada'}, 'asn': {577: 577, 15290: 15290}, 'interdomain': True}
+e 15290, 2914, {'latency': 2.74867344921157, 'asn': {2914: 2914, 15290: 15290}, 'city': {2914: 'New York, NY', 15290: 'Toronto, Canada'}, 'interdomain': True}
+e 15290, 4323, {'latency': 0.0, 'asn': {15290: 15290, 4323: 4323}, 'city': {15290: 'Seattle, WA', 4323: 'Seattle, WA'}, 'interdomain': True}
+e 15290, 7911, {'latency': 3.52496412161527, 'city': {15290: 'Toronto, Canada', 7911: 'Chicago, IL'}, 'asn': {15290: 15290, 7911: 7911}, 'interdomain': True}
+e 15290, 7018, {'latency': 0.959333136541764, 'asn': {7018: 7018, 15290: 15290}, 'city': {7018: 'Seattle, WA', 15290: 'Vancouver, Canada'}, 'interdomain': True}
+e 15290, 852, {'latency': 0.0, 'asn': {15290: 15290, 852: 852}, 'city': {15290: 'Vancouver, Canada', 852: 'Vancouver, Canada'}, 'interdomain': True}
+e 15290, 6395, {'latency': 3.52496412161527, 'city': {15290: 'Toronto, Canada', 6395: 'Chicago, IL'}, 'asn': {15290: 15290, 6395: 6395}, 'interdomain': True}
+e 15290, 701, {'latency': 0.0, 'asn': {15290: 15290, 701: 701}, 'city': {15290: 'Vancouver, Canada', 701: 'Vancouver, Canada'}, 'interdomain': True}
+e 2687, 7018, {'latency': 0.0, 'asn': {7018: 7018, 2687: 2687}, 'city': {7018: 'San Francisco, CA', 2687: 'San Francisco, CA'}, 'interdomain': True}
+e 2687, 1221, {'latency': 0.0, 'city': {1221: 'Sydney, Australia', 2687: 'Sydney, Australia'}, 'asn': {1221: 1221, 2687: 2687}, 'interdomain': True}
+e 3582, 4600, {'latency': 0.0, 'city': {4600: 'Eugene, OR', 3582: 'Eugene, OR'}, 'asn': {4600: 4600, 3582: 3582}, 'interdomain': True}
+e 3582, 3701, {'latency': 3.46291589849039, 'asn': {3701: 3701, 3582: 3582}, 'city': {3701: 'Stockton, CA', 3582: 'Eugene, OR'}, 'interdomain': True}
+e 701, 5650, {'latency': 0.0, 'asn': {5650: 5650, 701: 701}, 'city': {5650: 'Salt Lake City, UT', 701: 'Salt Lake City, UT'}, 'interdomain': True}
+e 701, 6461, {'latency': 0.0, 'asn': {701: 701, 6461: 6461}, 'city': {701: 'Washington, DC', 6461: 'Washington, DC'}, 'interdomain': True}
+e 701, 702, {'latency': 0.0, 'asn': {701: 701, 702: 702}, 'city': {701: 'Zurich, Switzerland', 702: 'Zurich, Switzerland'}, 'interdomain': True}
+e 701, 4544, {'latency': 0.0, 'asn': {4544: 4544, 701: 701}, 'city': {4544: 'Washington, DC', 701: 'Washington, DC'}, 'interdomain': True}
+e 701, 577, {'latency': 0.0, 'city': {577: 'London, Canada', 701: 'London, Canada'}, 'asn': {577: 577, 701: 701}, 'interdomain': True}
+e 701, 6467, {'latency': 0.0, 'asn': {6467: 6467, 701: 701}, 'city': {6467: 'Washington, DC', 701: 'Washington, DC'}, 'interdomain': True}
+e 701, 209, {'latency': 0.0, 'asn': {209: 209, 701: 701}, 'city': {209: 'Washington, DC', 701: 'Washington, DC'}, 'interdomain': True}
+e 701, 852, {'latency': 0.0, 'asn': {852: 852, 701: 701}, 'city': {852: 'Toronto, Canada', 701: 'Toronto, Canada'}, 'interdomain': True}
+e 701, 4565, {'latency': 0.124477546789977, 'asn': {701: 701, 4565: 4565}, 'city': {701: 'San Jose, CA', 4565: 'Palo Alto, CA'}, 'interdomain': True}
+e 701, 1239, {'latency': 0.0, 'asn': {701: 701, 1239: 1239}, 'city': {701: 'Washington, DC', 1239: 'Washington, DC'}, 'interdomain': True}
+e 701, 7132, {'latency': 0.0, 'city': {7132: 'Topeka, KS', 701: 'Topeka, KS'}, 'asn': {7132: 7132, 701: 701}, 'interdomain': True}
+e 701, 3549, {'latency': 0.0, 'asn': {701: 701, 3549: 3549}, 'city': {701: 'Washington, DC', 3549: 'Washington, DC'}, 'interdomain': True}
+e 701, 2914, {'latency': 0.0791793285538616, 'asn': {2914: 2914, 701: 701}, 'city': {2914: 'McLean, VA', 701: 'Washington, DC'}, 'interdomain': True}
+e 701, 4323, {'latency': 0.0, 'asn': {4323: 4323, 701: 701}, 'city': {4323: 'New York, NY', 701: 'New York, NY'}, 'interdomain': True}
+e 701, 3300, {'latency': 0.0, 'asn': {3300: 3300, 701: 701}, 'city': {3300: 'New York, NY', 701: 'New York, NY'}, 'interdomain': True}
+e 701, 7911, {'latency': 0.0, 'asn': {701: 701, 7911: 7911}, 'city': {701: 'Washington, DC', 7911: 'Washington, DC'}, 'interdomain': True}
+e 701, 3561, {'latency': 0.0, 'asn': {3561: 3561, 701: 701}, 'city': {3561: 'Washington, DC', 701: 'Washington, DC'}, 'interdomain': True}
+e 701, 7018, {'latency': 0.0, 'asn': {7018: 7018, 701: 701}, 'city': {7018: 'West Palm Beach, FL', 701: 'West Palm Beach, FL'}, 'interdomain': True}
+e 701, 2548, {'latency': 0.352097076827034, 'asn': {2548: 2548, 701: 701}, 'city': {2548: 'San Francisco, CA', 701: 'Santa Clara, CA'}, 'interdomain': True}
+e 701, 4725, {'latency': 0.0, 'city': {701: 'Los Angeles, CA', 4725: 'Los Angeles, CA'}, 'asn': {701: 701, 4725: 4725}, 'interdomain': True}
+e 701, 16631, {'latency': 1.00741082347545, 'asn': {701: 701, 16631: 16631}, 'city': {701: 'Washington, DC', 16631: 'Philadelphia, PA'}, 'interdomain': True}
+e 701, 6395, {'latency': 0.0, 'asn': {6395: 6395, 701: 701}, 'city': {6395: 'Washington, DC', 701: 'Washington, DC'}, 'interdomain': True}
+e 4600, 3701, {'latency': 0.840684393371876, 'asn': {4600: 4600, 3701: 3701}, 'city': {4600: 'Eugene, OR', 3701: 'Portland, OR'}, 'interdomain': True}
+e 4725, 4323, {'latency': 0.124424989353785, 'asn': {4323: 4323, 4725: 4725}, 'city': {4323: 'Vienna, VA', 4725: 'Ashburn, VA'}, 'interdomain': True}
+e 4725, 7911, {'latency': 0.0, 'asn': {4725: 4725, 7911: 7911}, 'city': {4725: 'Santa Clara, CA', 7911: 'Santa Clara, CA'}, 'interdomain': True}
+e 4725, 209, {'latency': 0.0, 'asn': {209: 209, 4725: 4725}, 'city': {209: 'Palo Alto, CA', 4725: 'Palo Alto, CA'}, 'interdomain': True}
+e 4725, 6461, {'latency': 0.0, 'asn': {4725: 4725, 6461: 6461}, 'city': {4725: 'Tokyo, Japan', 6461: 'Tokyo, Japan'}, 'interdomain': True}
+e 4725, 1239, {'latency': 0.0, 'asn': {4725: 4725, 1239: 1239}, 'city': {4725: 'Tokyo, Japan', 1239: 'Tokyo, Japan'}, 'interdomain': True}
+e 4725, 1785, {'latency': 0.0, 'city': {1785: 'Washington, DC', 4725: 'Washington, DC'}, 'asn': {1785: 1785, 4725: 4725}, 'interdomain': True}
+e 4725, 6395, {'latency': 0.0, 'asn': {6395: 6395, 4725: 4725}, 'city': {6395: 'Washington, DC', 4725: 'Washington, DC'}, 'interdomain': True}
+e 4725, 3549, {'latency': 0.0, 'asn': {3549: 3549, 4725: 4725}, 'city': {3549: 'Palo Alto, CA', 4725: 'Palo Alto, CA'}, 'interdomain': True}
+e 4544, 2914, {'latency': 0.0604334464578051, 'asn': {4544: 4544, 2914: 2914}, 'city': {4544: 'Sunnyvale, CA', 2914: 'San Jose, CA'}, 'interdomain': True}
+e 4544, 3300, {'latency': 0.0604334464578051, 'city': {4544: 'Sunnyvale, CA', 3300: 'San Jose, CA'}, 'asn': {4544: 4544, 3300: 3300}, 'interdomain': True}
+e 4544, 3549, {'latency': 0.0, 'asn': {4544: 4544, 3549: 3549}, 'city': {4544: 'Washington, DC', 3549: 'Washington, DC'}, 'interdomain': True}
+e 4544, 7132, {'latency': 0.0604334464578051, 'city': {4544: 'Sunnyvale, CA', 7132: 'San Jose, CA'}, 'asn': {4544: 4544, 7132: 7132}, 'interdomain': True}
+e 4544, 7018, {'latency': 0.323328237108265, 'asn': {4544: 4544, 7018: 7018}, 'city': {4544: 'Sunnyvale, CA', 7018: 'San Francisco, CA'}, 'interdomain': True}
+e 4544, 7543, {'latency': 0.0, 'city': {4544: 'Palo Alto, CA', 7543: 'Palo Alto, CA'}, 'asn': {4544: 4544, 7543: 7543}, 'interdomain': True}
+e 4544, 209, {'latency': 0.0, 'asn': {4544: 4544, 209: 209}, 'city': {4544: 'Washington, DC', 209: 'Washington, DC'}, 'interdomain': True}
+e 4544, 7911, {'latency': 0.0, 'asn': {4544: 4544, 7911: 7911}, 'city': {4544: 'Herndon, VA', 7911: 'Herndon, VA'}, 'interdomain': True}
+e 4544, 9942, {'latency': 0.0604334464578051, 'city': {4544: 'Sunnyvale, CA', 9942: 'San Jose, CA'}, 'asn': {4544: 4544, 9942: 9942}, 'interdomain': True}
+e 4544, 16631, {'latency': 0.0, 'city': {4544: 'Washington, DC', 16631: 'Washington, DC'}, 'asn': {4544: 4544, 16631: 16631}, 'interdomain': True}
+e 4544, 1785, {'latency': 0.0, 'city': {4544: 'Washington, DC', 1785: 'Washington, DC'}, 'asn': {4544: 4544, 1785: 1785}, 'interdomain': True}
+e 4544, 6395, {'latency': 0.0, 'asn': {4544: 4544, 6395: 6395}, 'city': {4544: 'Washington, DC', 6395: 'Washington, DC'}, 'interdomain': True}
+e 577, 4323, {'latency': 0.0, 'asn': {577: 577, 4323: 4323}, 'city': {577: 'Seattle, WA', 4323: 'Seattle, WA'}, 'interdomain': True}
+e 577, 1221, {'latency': 0.0, 'city': {577: 'Palo Alto, CA', 1221: 'Palo Alto, CA'}, 'asn': {577: 577, 1221: 1221}, 'interdomain': True}
+e 577, 7911, {'latency': 0.0, 'asn': {577: 577, 7911: 7911}, 'city': {577: 'Seattle, WA', 7911: 'Seattle, WA'}, 'interdomain': True}
+e 577, 3561, {'latency': 0.0, 'asn': {577: 577, 3561: 3561}, 'city': {577: 'Seattle, WA', 3561: 'Seattle, WA'}, 'interdomain': True}
+e 577, 6461, {'latency': 0.0, 'asn': {577: 577, 6461: 6461}, 'city': {577: 'New York, NY', 6461: 'New York, NY'}, 'interdomain': True}
+e 577, 209, {'latency': 0.0710684956979026, 'asn': {209: 209, 577: 577}, 'city': {209: 'Newark, NJ', 577: 'New York, NY'}, 'interdomain': True}
+e 577, 2548, {'latency': 0.0, 'city': {577: 'Chicago, IL', 2548: 'Chicago, IL'}, 'asn': {577: 577, 2548: 2548}, 'interdomain': True}
+e 577, 1239, {'latency': 0.0, 'asn': {577: 577, 1239: 1239}, 'city': {577: 'Seattle, WA', 1239: 'Seattle, WA'}, 'interdomain': True}
+e 577, 3549, {'latency': 0.0, 'asn': {577: 577, 3549: 3549}, 'city': {577: 'Seattle, WA', 3549: 'Seattle, WA'}, 'interdomain': True}
+e 6467, 2914, {'latency': 0.0, 'asn': {2914: 2914, 6467: 6467}, 'city': {2914: 'San Jose, CA', 6467: 'San Jose, CA'}, 'interdomain': True}
+e 6467, 7018, {'latency': 0.0, 'city': {7018: 'Washington, DC', 6467: 'Washington, DC'}, 'asn': {7018: 7018, 6467: 6467}, 'interdomain': True}
+e 6467, 6461, {'latency': 0.0, 'asn': {6467: 6467, 6461: 6461}, 'city': {6467: 'Washington, DC', 6461: 'Washington, DC'}, 'interdomain': True}
+e 6467, 209, {'latency': 0.0, 'city': {209: 'Houston, TX', 6467: 'Houston, TX'}, 'asn': {209: 209, 6467: 6467}, 'interdomain': True}
+e 6467, 1239, {'latency': 0.0, 'asn': {6467: 6467, 1239: 1239}, 'city': {6467: 'Dallas, TX', 1239: 'Dallas, TX'}, 'interdomain': True}
+e 6467, 1785, {'latency': 0.0, 'city': {1785: 'Washington, DC', 6467: 'Washington, DC'}, 'asn': {1785: 1785, 6467: 6467}, 'interdomain': True}
+e 1221, 2914, {'latency': 0.0, 'city': {2914: 'Palo Alto, CA', 1221: 'Palo Alto, CA'}, 'asn': {2914: 2914, 1221: 1221}, 'interdomain': True}
+e 1221, 1239, {'latency': 0.0, 'city': {1221: 'San Jose, CA', 1239: 'San Jose, CA'}, 'asn': {1221: 1221, 1239: 1239}, 'interdomain': True}
+e 1221, 4565, {'latency': 0.0, 'city': {1221: 'Napa, CA', 4565: 'Napa, CA'}, 'asn': {1221: 1221, 4565: 4565}, 'interdomain': True}
+e 1221, 7543, {'latency': 0.0, 'asn': {1221: 1221, 7543: 7543}, 'city': {1221: 'Sydney, Australia', 7543: 'Sydney, Australia'}, 'interdomain': True}
+e 1221, 3549, {'latency': 0.0, 'city': {1221: 'Sydney, Australia', 3549: 'Sydney, Australia'}, 'asn': {1221: 1221, 3549: 3549}, 'interdomain': True}
+e 13129, 3320, {'latency': 0.0, 'city': {3320: 'Frankfurt, Germany', 13129: 'Frankfurt, Germany'}, 'asn': {3320: 3320, 13129: 13129}, 'interdomain': True}
+e 13129, 7911, {'latency': 0.0, 'city': {13129: 'London, UnitedKingdom', 7911: 'London, UnitedKingdom'}, 'asn': {13129: 13129, 7911: 7911}, 'interdomain': True}
+e 13129, 6461, {'latency': 2.0357355149515, 'asn': {13129: 13129, 6461: 6461}, 'city': {13129: 'Hamburg, Germany', 6461: 'Frankfurt, Germany'}, 'interdomain': True}
+e 7543, 2914, {'latency': 10.1835162102325, 'city': {2914: 'Tokyo, Japan', 7543: 'Taipei, Taiwan'}, 'asn': {2914: 2914, 7543: 7543}, 'interdomain': True}
+e 7543, 4323, {'latency': 0.0, 'city': {4323: 'Palo Alto, CA', 7543: 'Palo Alto, CA'}, 'asn': {4323: 4323, 7543: 7543}, 'interdomain': True}
+e 7543, 7911, {'latency': 0.0926850068982159, 'city': {7543: 'Palo Alto, CA', 7911: 'Santa Clara, CA'}, 'asn': {7543: 7543, 7911: 7911}, 'interdomain': True}
+e 7543, 1239, {'latency': 0.0, 'city': {1239: 'San Jose, CA', 7543: 'San Jose, CA'}, 'asn': {1239: 1239, 7543: 7543}, 'interdomain': True}
+e 7543, 209, {'latency': 0.0, 'city': {209: 'Palo Alto, CA', 7543: 'Palo Alto, CA'}, 'asn': {209: 209, 7543: 7543}, 'interdomain': True}
+e 7543, 16631, {'latency': 0.261255074734326, 'city': {7543: 'Palo Alto, CA', 16631: 'San Francisco, CA'}, 'asn': {7543: 7543, 16631: 16631}, 'interdomain': True}
+e 7543, 6395, {'latency': 0.0926850068982159, 'city': {6395: 'Santa Clara, CA', 7543: 'Palo Alto, CA'}, 'asn': {6395: 6395, 7543: 7543}, 'interdomain': True}
+e 7543, 7132, {'latency': 0.16976896644921, 'city': {7132: 'Herndon, VA', 7543: 'Washington, DC'}, 'asn': {7132: 7132, 7543: 7543}, 'interdomain': True}
+e 7543, 3549, {'latency': 0.0, 'city': {3549: 'Palo Alto, CA', 7543: 'Palo Alto, CA'}, 'asn': {3549: 3549, 7543: 7543}, 'interdomain': True}
+e 1784, 2914, {'latency': 0.0845787975806531, 'asn': {1784: 1784, 2914: 2914}, 'city': {1784: 'Reston, VA', 2914: 'Ashburn, VA'}, 'interdomain': True}
+e 1784, 4323, {'latency': 0.0399433450835698, 'asn': {1784: 1784, 4323: 4323}, 'city': {1784: 'Reston, VA', 4323: 'Vienna, VA'}, 'interdomain': True}
+e 1784, 7911, {'latency': 0.146741247293788, 'asn': {1784: 1784, 7911: 7911}, 'city': {1784: 'Reston, VA', 7911: 'Washington, DC'}, 'interdomain': True}
+e 1784, 209, {'latency': 0.146741247293788, 'city': {1784: 'Reston, VA', 209: 'Washington, DC'}, 'asn': {1784: 1784, 209: 209}, 'interdomain': True}
+e 1784, 6395, {'latency': 0.146741247293788, 'asn': {1784: 1784, 6395: 6395}, 'city': {1784: 'Reston, VA', 6395: 'Washington, DC'}, 'interdomain': True}
+e 1784, 3549, {'latency': 0.0631292361607442, 'city': {1784: 'Quincy, MA', 3549: 'Boston, MA'}, 'asn': {1784: 1784, 3549: 3549}, 'interdomain': True}
+e 209, 5650, {'latency': 0.704183903975056, 'asn': {209: 209, 5650: 5650}, 'city': {209: 'Sunnyvale, CA', 5650: 'Sacramento, CA'}, 'interdomain': True}
+e 209, 16631, {'latency': 0.261255074734326, 'asn': {209: 209, 16631: 16631}, 'city': {209: 'Palo Alto, CA', 16631: 'San Francisco, CA'}, 'interdomain': True}
+e 209, 852, {'latency': 0.0, 'asn': {209: 209, 852: 852}, 'city': {209: 'Palo Alto, CA', 852: 'Palo Alto, CA'}, 'interdomain': True}
+e 209, 4565, {'latency': 0.0, 'asn': {209: 209, 4565: 4565}, 'city': {209: 'Washington, DC', 4565: 'Washington, DC'}, 'interdomain': True}
+e 209, 1239, {'latency': 0.225316255475169, 'asn': {209: 209, 1239: 1239}, 'city': {209: 'Washington, DC', 1239: 'Ashburn, VA'}, 'interdomain': True}
+e 209, 3549, {'latency': 0.0, 'asn': {209: 209, 3549: 3549}, 'city': {209: 'Washington, DC', 3549: 'Washington, DC'}, 'interdomain': True}
+e 209, 2914, {'latency': 2.46848370858643, 'asn': {209: 209, 2914: 2914}, 'city': {209: 'Washington, DC', 2914: 'Sterling, VA'}, 'interdomain': True}
+e 209, 4323, {'latency': 0.0, 'city': {209: 'New York, NY', 4323: 'New York, NY'}, 'asn': {209: 209, 4323: 4323}, 'interdomain': True}
+e 209, 3300, {'latency': 0.0, 'city': {209: 'San Jose, CA', 3300: 'San Jose, CA'}, 'asn': {209: 209, 3300: 3300}, 'interdomain': True}
+e 209, 7911, {'latency': 0.0, 'asn': {209: 209, 7911: 7911}, 'city': {209: 'Washington, DC', 7911: 'Washington, DC'}, 'interdomain': True}
+e 209, 3561, {'latency': 0.146741247293788, 'asn': {209: 209, 3561: 3561}, 'city': {209: 'Washington, DC', 3561: 'Reston, VA'}, 'interdomain': True}
+e 209, 7018, {'latency': 0.0, 'asn': {209: 209, 7018: 7018}, 'city': {209: 'Washington, DC', 7018: 'Washington, DC'}, 'interdomain': True}
+e 209, 6461, {'latency': 0.0, 'asn': {209: 209, 6461: 6461}, 'city': {209: 'Washington, DC', 6461: 'Washington, DC'}, 'interdomain': True}
+e 209, 2497, {'latency': 0.0, 'city': {209: 'Palo Alto, CA', 2497: 'Palo Alto, CA'}, 'asn': {209: 209, 2497: 2497}, 'interdomain': True}
+e 209, 2548, {'latency': 0.0, 'asn': {209: 209, 2548: 2548}, 'city': {209: 'Washington, DC', 2548: 'Washington, DC'}, 'interdomain': True}
+e 209, 3320, {'latency': 31.5982426456463, 'asn': {3320: 3320, 209: 209}, 'city': {3320: 'Zurich, Switzerland', 209: 'New York, NY'}, 'interdomain': True}
+e 209, 1785, {'latency': 0.0, 'asn': {209: 209, 1785: 1785}, 'city': {209: 'Washington, DC', 1785: 'Washington, DC'}, 'interdomain': True}
+e 5650, 2914, {'latency': 0.0, 'asn': {2914: 2914, 5650: 5650}, 'city': {2914: 'Palo Alto, CA', 5650: 'Palo Alto, CA'}, 'interdomain': True}
+e 5650, 4323, {'latency': 0.0, 'asn': {5650: 5650, 4323: 4323}, 'city': {5650: 'Seattle, WA', 4323: 'Seattle, WA'}, 'interdomain': True}
+e 5650, 7911, {'latency': 0.0, 'city': {5650: 'Chicago, IL', 7911: 'Chicago, IL'}, 'asn': {5650: 5650, 7911: 7911}, 'interdomain': True}
+e 5650, 3561, {'latency': 0.089010375188688, 'asn': {3561: 3561, 5650: 5650}, 'city': {3561: 'Seattle, WA', 5650: 'Tukwila, WA'}, 'interdomain': True}
+e 5650, 7018, {'latency': 0.0, 'asn': {5650: 5650, 7018: 7018}, 'city': {5650: 'Washington, DC', 7018: 'Washington, DC'}, 'interdomain': True}
+e 5650, 16631, {'latency': 0.261255074734326, 'asn': {5650: 5650, 16631: 16631}, 'city': {5650: 'Palo Alto, CA', 16631: 'San Francisco, CA'}, 'interdomain': True}
+e 5650, 2548, {'latency': 0.0, 'city': {5650: 'San Jose, CA', 2548: 'San Jose, CA'}, 'asn': {5650: 5650, 2548: 2548}, 'interdomain': True}
+e 5650, 1239, {'latency': 0.0, 'asn': {5650: 5650, 1239: 1239}, 'city': {5650: 'Stockton, CA', 1239: 'Stockton, CA'}, 'interdomain': True}
+e 5650, 1785, {'latency': 0.0791793285538616, 'city': {1785: 'Washington, DC', 5650: 'McLean, VA'}, 'asn': {1785: 1785, 5650: 5650}, 'interdomain': True}
+e 5650, 6395, {'latency': 0.225316255475169, 'asn': {5650: 5650, 6395: 6395}, 'city': {5650: 'Ashburn, VA', 6395: 'Washington, DC'}, 'interdomain': True}
+e 5650, 3549, {'latency': 0.225316255475169, 'asn': {5650: 5650, 3549: 3549}, 'city': {5650: 'Ashburn, VA', 3549: 'Washington, DC'}, 'interdomain': True}
+e 852, 4323, {'latency': 0.0, 'city': {4323: 'Chicago, IL', 852: 'Chicago, IL'}, 'asn': {4323: 4323, 852: 852}, 'interdomain': True}
+e 852, 7911, {'latency': 0.0, 'city': {852: 'Chicago, IL', 7911: 'Chicago, IL'}, 'asn': {852: 852, 7911: 7911}, 'interdomain': True}
+e 852, 3561, {'latency': 5.7726894331061, 'asn': {3561: 3561, 852: 852}, 'city': {3561: 'Chicago, IL', 852: 'Winnipeg, Canada'}, 'interdomain': True}
+e 852, 1239, {'latency': 0.0, 'asn': {852: 852, 1239: 1239}, 'city': {852: 'Seattle, WA', 1239: 'Seattle, WA'}, 'interdomain': True}
+e 4565, 2914, {'latency': 0.0791793285538616, 'asn': {2914: 2914, 4565: 4565}, 'city': {2914: 'McLean, VA', 4565: 'Washington, DC'}, 'interdomain': True}
+e 4565, 4323, {'latency': 0.114850126520913, 'asn': {4323: 4323, 4565: 4565}, 'city': {4323: 'Vienna, VA', 4565: 'Washington, DC'}, 'interdomain': True}
+e 4565, 7911, {'latency': 0.16976896644921, 'asn': {4565: 4565, 7911: 7911}, 'city': {4565: 'Washington, DC', 7911: 'Herndon, VA'}, 'interdomain': True}
+e 4565, 3561, {'latency': 0.0, 'asn': {3561: 3561, 4565: 4565}, 'city': {3561: 'Washington, DC', 4565: 'Washington, DC'}, 'interdomain': True}
+e 4565, 7018, {'latency': 0.0, 'asn': {7018: 7018, 4565: 4565}, 'city': {7018: 'Washington, DC', 4565: 'Washington, DC'}, 'interdomain': True}
+e 4565, 1239, {'latency': 0.0, 'city': {4565: 'Relay, MD', 1239: 'Relay, MD'}, 'asn': {4565: 4565, 1239: 1239}, 'interdomain': True}
+e 4565, 9942, {'latency': 0.0, 'city': {4565: 'Napa, CA', 9942: 'Napa, CA'}, 'asn': {4565: 4565, 9942: 9942}, 'interdomain': True}
+e 4565, 16631, {'latency': 0.0, 'asn': {4565: 4565, 16631: 16631}, 'city': {4565: 'Washington, DC', 16631: 'Washington, DC'}, 'interdomain': True}
+e 4565, 3549, {'latency': 0.0, 'asn': {3549: 3549, 4565: 4565}, 'city': {3549: 'Washington, DC', 4565: 'Washington, DC'}, 'interdomain': True}
+e 4565, 6395, {'latency': 0.0, 'asn': {6395: 6395, 4565: 4565}, 'city': {6395: 'Washington, DC', 4565: 'Washington, DC'}, 'interdomain': True}
+e 4565, 6461, {'latency': 0.0, 'city': {4565: 'Washington, DC', 6461: 'Washington, DC'}, 'asn': {4565: 4565, 6461: 6461}, 'interdomain': True}
+e 4565, 101, {'latency': 0.0, 'city': {101: 'Seattle, WA', 4565: 'Seattle, WA'}, 'asn': {101: 101, 4565: 4565}, 'interdomain': True}
+e 9942, 4323, {'latency': 0.0, 'city': {4323: 'Seattle, WA', 9942: 'Seattle, WA'}, 'asn': {4323: 4323, 9942: 9942}, 'interdomain': True}
+e 9942, 101, {'latency': 0.0, 'city': {101: 'Seattle, WA', 9942: 'Seattle, WA'}, 'asn': {101: 101, 9942: 9942}, 'interdomain': True}
+e 9942, 7911, {'latency': 0.0926850068982159, 'city': {9942: 'Palo Alto, CA', 7911: 'Santa Clara, CA'}, 'asn': {9942: 9942, 7911: 7911}, 'interdomain': True}
+e 9942, 16631, {'latency': 0.381420811600469, 'city': {9942: 'San Jose, CA', 16631: 'San Francisco, CA'}, 'asn': {9942: 9942, 16631: 16631}, 'interdomain': True}
+e 9942, 6395, {'latency': 0.0, 'city': {6395: 'San Jose, CA', 9942: 'San Jose, CA'}, 'asn': {6395: 6395, 9942: 9942}, 'interdomain': True}
+e 9942, 7132, {'latency': 0.0, 'city': {7132: 'Seattle, WA', 9942: 'Seattle, WA'}, 'asn': {7132: 7132, 9942: 9942}, 'interdomain': True}
+e 9942, 6461, {'latency': 0.0, 'city': {6461: 'Seattle, WA', 9942: 'Seattle, WA'}, 'asn': {6461: 6461, 9942: 9942}, 'interdomain': True}
+e 9942, 702, {'latency': 0.0, 'city': {702: 'Melbourne, Australia', 9942: 'Melbourne, Australia'}, 'asn': {702: 702, 9942: 9942}, 'interdomain': True}
+e 1239, 702, {'latency': 0.0, 'asn': {702: 702, 1239: 1239}, 'city': {702: 'London, UnitedKingdom', 1239: 'London, UnitedKingdom'}, 'interdomain': True}
+e 1239, 3701, {'latency': 0.0, 'city': {3701: 'Stockton, CA', 1239: 'Stockton, CA'}, 'asn': {3701: 3701, 1239: 1239}, 'interdomain': True}
+e 1239, 2497, {'latency': 0.0, 'city': {2497: 'San Jose, CA', 1239: 'San Jose, CA'}, 'asn': {2497: 2497, 1239: 1239}, 'interdomain': True}
+e 1239, 11608, {'latency': 0.0, 'city': {11608: 'Tacoma, WA', 1239: 'Tacoma, WA'}, 'asn': {11608: 11608, 1239: 1239}, 'interdomain': True}
+e 1239, 7132, {'latency': 0.0, 'asn': {7132: 7132, 1239: 1239}, 'city': {7132: 'New York, NY', 1239: 'New York, NY'}, 'interdomain': True}
+e 1239, 3549, {'latency': 0.381420811600469, 'asn': {3549: 3549, 1239: 1239}, 'city': {3549: 'San Francisco, CA', 1239: 'San Jose, CA'}, 'interdomain': True}
+e 1239, 2914, {'latency': 0.207166302464815, 'asn': {2914: 2914, 1239: 1239}, 'city': {2914: 'Seattle, WA', 1239: 'Tacoma, WA'}, 'interdomain': True}
+e 1239, 4323, {'latency': 0.0, 'asn': {4323: 4323, 1239: 1239}, 'city': {4323: 'Tucson, AZ', 1239: 'Tucson, AZ'}, 'interdomain': True}
+e 1239, 3300, {'latency': 0.0, 'asn': {3300: 3300, 1239: 1239}, 'city': {3300: 'Amsterdam, Netherlands', 1239: 'Amsterdam, Netherlands'}, 'interdomain': True}
+e 1239, 7911, {'latency': 2.7548959653771, 'asn': {1239: 1239, 7911: 7911}, 'city': {1239: 'Stockton, CA', 7911: 'Anaheim, CA'}, 'interdomain': True}
+e 1239, 3561, {'latency': 0.207166302464815, 'asn': {3561: 3561, 1239: 1239}, 'city': {3561: 'Seattle, WA', 1239: 'Tacoma, WA'}, 'interdomain': True}
+e 1239, 7018, {'latency': 0.0, 'asn': {7018: 7018, 1239: 1239}, 'city': {7018: 'Washington, DC', 1239: 'Washington, DC'}, 'interdomain': True}
+e 1239, 3602, {'latency': 0.0, 'asn': {3602: 3602, 1239: 1239}, 'city': {3602: 'Seattle, WA', 1239: 'Seattle, WA'}, 'interdomain': True}
+e 1239, 6461, {'latency': 0.0, 'asn': {6461: 6461, 1239: 1239}, 'city': {6461: 'San Jose, CA', 1239: 'San Jose, CA'}, 'interdomain': True}
+e 1239, 4755, {'latency': 0.0, 'asn': {4755: 4755, 1239: 1239}, 'city': {4755: 'Stockton, CA', 1239: 'Stockton, CA'}, 'interdomain': True}
+e 1239, 2548, {'latency': 0.0, 'asn': {2548: 2548, 1239: 1239}, 'city': {2548: 'New York, NY', 1239: 'New York, NY'}, 'interdomain': True}
+e 1239, 16631, {'latency': 0.0, 'city': {1239: 'New York, NY', 16631: 'New York, NY'}, 'asn': {1239: 1239, 16631: 16631}, 'interdomain': True}
+e 1239, 3320, {'latency': 0.0, 'asn': {3320: 3320, 1239: 1239}, 'city': {3320: 'Relay, MD', 1239: 'Relay, MD'}, 'interdomain': True}
+e 1239, 1785, {'latency': 0.0, 'asn': {1785: 1785, 1239: 1239}, 'city': {1785: 'San Jose, CA', 1239: 'San Jose, CA'}, 'interdomain': True}
+e 1239, 6395, {'latency': 0.22235770619305, 'asn': {6395: 6395, 1239: 1239}, 'city': {6395: 'Washington, DC', 1239: 'Relay, MD'}, 'interdomain': True}
+e 11608, 2914, {'latency': 0.0, 'city': {11608: 'Seattle, WA', 2914: 'Seattle, WA'}, 'asn': {11608: 11608, 2914: 2914}, 'interdomain': True}
+e 11608, 4323, {'latency': 0.0, 'asn': {11608: 11608, 4323: 4323}, 'city': {11608: 'Seattle, WA', 4323: 'Seattle, WA'}, 'interdomain': True}
+e 11608, 101, {'latency': 0.0, 'city': {11608: 'Seattle, WA', 101: 'Seattle, WA'}, 'asn': {11608: 11608, 101: 101}, 'interdomain': True}
+e 11608, 7911, {'latency': 0.0, 'asn': {11608: 11608, 7911: 7911}, 'city': {11608: 'Seattle, WA', 7911: 'Seattle, WA'}, 'interdomain': True}
+e 11608, 16631, {'latency': 5.46425584185052, 'asn': {11608: 11608, 16631: 16631}, 'city': {11608: 'Seattle, WA', 16631: 'San Francisco, CA'}, 'interdomain': True}
+e 11608, 6461, {'latency': 0.0, 'city': {11608: 'Seattle, WA', 6461: 'Seattle, WA'}, 'asn': {11608: 11608, 6461: 6461}, 'interdomain': True}
+e 7132, 4323, {'latency': 0.124424989353785, 'asn': {4323: 4323, 7132: 7132}, 'city': {4323: 'Vienna, VA', 7132: 'Ashburn, VA'}, 'interdomain': True}
+e 7132, 7911, {'latency': 0.0, 'asn': {7132: 7132, 7911: 7911}, 'city': {7132: 'Washington, DC', 7911: 'Washington, DC'}, 'interdomain': True}
+e 7132, 7018, {'latency': 0.0, 'city': {7018: 'Dallas, TX', 7132: 'Dallas, TX'}, 'asn': {7018: 7018, 7132: 7132}, 'interdomain': True}
+e 7132, 16631, {'latency': 0.0, 'asn': {7132: 7132, 16631: 16631}, 'city': {7132: 'San Jose, CA', 16631: 'San Jose, CA'}, 'interdomain': True}
+e 7132, 2548, {'latency': 3.51416936945528, 'city': {2548: 'Dallas, TX', 7132: 'Topeka, KS'}, 'asn': {2548: 2548, 7132: 7132}, 'interdomain': True}
+e 7132, 6395, {'latency': 0.0, 'asn': {6395: 6395, 7132: 7132}, 'city': {6395: 'Washington, DC', 7132: 'Washington, DC'}, 'interdomain': True}
+e 3549, 4755, {'latency': 0.0, 'city': {4755: 'New York, NY', 3549: 'New York, NY'}, 'asn': {4755: 4755, 3549: 3549}, 'interdomain': True}
+e 3549, 702, {'latency': 0.0, 'asn': {3549: 3549, 702: 702}, 'city': {3549: 'Singapore', 702: 'Singapore'}, 'interdomain': True}
+e 3549, 2914, {'latency': 0.878733736776874, 'asn': {2914: 2914, 3549: 3549}, 'city': {2914: 'Springfield, MI', 3549: 'Detroit, MI'}, 'interdomain': True}
+e 3549, 4323, {'latency': 0.0, 'asn': {4323: 4323, 3549: 3549}, 'city': {4323: 'Washington, DC', 3549: 'Washington, DC'}, 'interdomain': True}
+e 3549, 3300, {'latency': 0.0, 'asn': {3300: 3300, 3549: 3549}, 'city': {3300: 'Amsterdam, Netherlands', 3549: 'Amsterdam, Netherlands'}, 'interdomain': True}
+e 3549, 7911, {'latency': 0.0, 'asn': {3549: 3549, 7911: 7911}, 'city': {3549: 'Washington, DC', 7911: 'Washington, DC'}, 'interdomain': True}
+e 3549, 3561, {'latency': 0.146741247293788, 'asn': {3561: 3561, 3549: 3549}, 'city': {3561: 'Reston, VA', 3549: 'Washington, DC'}, 'interdomain': True}
+e 3549, 7018, {'latency': 0.0, 'asn': {7018: 7018, 3549: 3549}, 'city': {7018: 'Washington, DC', 3549: 'Washington, DC'}, 'interdomain': True}
+e 3549, 6461, {'latency': 0.0, 'asn': {3549: 3549, 6461: 6461}, 'city': {3549: 'Palo Alto, CA', 6461: 'Palo Alto, CA'}, 'interdomain': True}
+e 3549, 2497, {'latency': 0.0, 'asn': {2497: 2497, 3549: 3549}, 'city': {2497: 'Palo Alto, CA', 3549: 'Palo Alto, CA'}, 'interdomain': True}
+e 3549, 2548, {'latency': 0.0, 'city': {2548: 'New York, NY', 3549: 'New York, NY'}, 'asn': {2548: 2548, 3549: 3549}, 'interdomain': True}
+e 3549, 16631, {'latency': 0.261255074734326, 'asn': {3549: 3549, 16631: 16631}, 'city': {3549: 'Palo Alto, CA', 16631: 'San Francisco, CA'}, 'interdomain': True}
+e 3549, 3320, {'latency': 3.87862930965681, 'asn': {3320: 3320, 3549: 3549}, 'city': {3320: 'Zurich, Switzerland', 3549: 'London, UnitedKingdom'}, 'interdomain': True}
+e 3549, 2686, {'latency': 0.0, 'city': {3549: 'London, UnitedKingdom', 2686: 'London, UnitedKingdom'}, 'asn': {3549: 3549, 2686: 2686}, 'interdomain': True}
+e 3549, 3967, {'latency': 0.0, 'asn': {3549: 3549, 3967: 3967}, 'city': {3549: 'New York, NY', 3967: 'New York, NY'}, 'interdomain': True}
+e 702, 3561, {'latency': 0.0, 'asn': {3561: 3561, 702: 702}, 'city': {3561: 'Paris, France', 702: 'Paris, France'}, 'interdomain': True}
+e 702, 3300, {'latency': 0.0, 'city': {3300: 'London, UnitedKingdom', 702: 'London, UnitedKingdom'}, 'asn': {3300: 3300, 702: 702}, 'interdomain': True}
+e 702, 7911, {'latency': 0.0, 'city': {702: 'London, UnitedKingdom', 7911: 'London, UnitedKingdom'}, 'asn': {702: 702, 7911: 7911}, 'interdomain': True}
+e 702, 9070, {'latency': 0.0, 'city': {702: 'Brussels, Belgium', 9070: 'Brussels, Belgium'}, 'asn': {702: 702, 9070: 9070}, 'interdomain': True}
+e 702, 3320, {'latency': 0.0, 'asn': {3320: 3320, 702: 702}, 'city': {3320: 'Frankfurt, Germany', 702: 'Frankfurt, Germany'}, 'interdomain': True}
+e 702, 2686, {'latency': 0.0, 'city': {702: 'Amsterdam, Netherlands', 2686: 'Amsterdam, Netherlands'}, 'asn': {702: 702, 2686: 2686}, 'interdomain': True}
+e 2914, 6461, {'latency': 0.0, 'asn': {2914: 2914, 6461: 6461}, 'city': {2914: 'Seattle, WA', 6461: 'Seattle, WA'}, 'interdomain': True}
+e 2914, 2497, {'latency': 0.0, 'asn': {2497: 2497, 2914: 2914}, 'city': {2497: 'Palo Alto, CA', 2914: 'Palo Alto, CA'}, 'interdomain': True}
+e 2914, 4323, {'latency': 0.381420811600469, 'asn': {2914: 2914, 4323: 4323}, 'city': {2914: 'San Jose, CA', 4323: 'San Francisco, CA'}, 'interdomain': True}
+e 2914, 3300, {'latency': 0.0, 'asn': {2914: 2914, 3300: 3300}, 'city': {2914: 'San Jose, CA', 3300: 'San Jose, CA'}, 'interdomain': True}
+e 2914, 101, {'latency': 0.0, 'city': {2914: 'Seattle, WA', 101: 'Seattle, WA'}, 'asn': {2914: 2914, 101: 101}, 'interdomain': True}
+e 2914, 7911, {'latency': 0.0926850068982159, 'asn': {2914: 2914, 7911: 7911}, 'city': {2914: 'Palo Alto, CA', 7911: 'Santa Clara, CA'}, 'interdomain': True}
+e 2914, 3561, {'latency': 0.0, 'asn': {3561: 3561, 2914: 2914}, 'city': {3561: 'Seattle, WA', 2914: 'Seattle, WA'}, 'interdomain': True}
+e 2914, 7018, {'latency': 0.0, 'asn': {2914: 2914, 7018: 7018}, 'city': {2914: 'Seattle, WA', 7018: 'Seattle, WA'}, 'interdomain': True}
+e 2914, 2548, {'latency': 2.46848370858643, 'asn': {2914: 2914, 2548: 2548}, 'city': {2914: 'Sterling, VA', 2548: 'Washington, DC'}, 'interdomain': True}
+e 2914, 16631, {'latency': 0.0, 'asn': {2914: 2914, 16631: 16631}, 'city': {2914: 'San Francisco, CA', 16631: 'San Francisco, CA'}, 'interdomain': True}
+e 2914, 3320, {'latency': 31.5991051130278, 'asn': {3320: 3320, 2914: 2914}, 'city': {3320: 'Zurich, Switzerland', 2914: 'Sterling, VA'}, 'interdomain': True}
+e 2914, 6395, {'latency': 0.202772587412041, 'asn': {2914: 2914, 6395: 6395}, 'city': {2914: 'San Jose, CA', 6395: 'Hayward, CA'}, 'interdomain': True}
+e 4323, 2497, {'latency': 0.0, 'asn': {2497: 2497, 4323: 4323}, 'city': {2497: 'Palo Alto, CA', 4323: 'Palo Alto, CA'}, 'interdomain': True}
+e 4323, 6461, {'latency': 0.114850126520913, 'asn': {4323: 4323, 6461: 6461}, 'city': {4323: 'Vienna, VA', 6461: 'Washington, DC'}, 'interdomain': True}
+e 4323, 101, {'latency': 0.0, 'city': {4323: 'Seattle, WA', 101: 'Seattle, WA'}, 'asn': {4323: 4323, 101: 101}, 'interdomain': True}
+e 4323, 7911, {'latency': 0.0, 'asn': {4323: 4323, 7911: 7911}, 'city': {4323: 'Herndon, VA', 7911: 'Herndon, VA'}, 'interdomain': True}
+e 4323, 3561, {'latency': 0.0, 'asn': {3561: 3561, 4323: 4323}, 'city': {3561: 'Seattle, WA', 4323: 'Seattle, WA'}, 'interdomain': True}
+e 4323, 7018, {'latency': 0.0, 'asn': {7018: 7018, 4323: 4323}, 'city': {7018: 'Syracuse, NY', 4323: 'Syracuse, NY'}, 'interdomain': True}
+e 4323, 2548, {'latency': 0.0, 'asn': {4323: 4323, 2548: 2548}, 'city': {4323: 'San Jose, CA', 2548: 'San Jose, CA'}, 'interdomain': True}
+e 4323, 16631, {'latency': 0.0, 'asn': {4323: 4323, 16631: 16631}, 'city': {4323: 'Washington, DC', 16631: 'Washington, DC'}, 'interdomain': True}
+e 4323, 3320, {'latency': 17.184736870328, 'asn': {3320: 3320, 4323: 4323}, 'city': {3320: 'New York, NY', 4323: 'Phoenix, AZ'}, 'interdomain': True}
+e 4323, 6395, {'latency': 0.114850126520913, 'asn': {4323: 4323, 6395: 6395}, 'city': {4323: 'Vienna, VA', 6395: 'Washington, DC'}, 'interdomain': True}
+e 3300, 7911, {'latency': 0.16976896644921, 'city': {3300: 'Washington, DC', 7911: 'Herndon, VA'}, 'asn': {3300: 3300, 7911: 7911}, 'interdomain': True}
+e 3300, 3561, {'latency': 0.0, 'city': {3561: 'London, UnitedKingdom', 3300: 'London, UnitedKingdom'}, 'asn': {3561: 3561, 3300: 3300}, 'interdomain': True}
+e 3300, 7018, {'latency': 0.0, 'asn': {7018: 7018, 3300: 3300}, 'city': {7018: 'Washington, DC', 3300: 'Washington, DC'}, 'interdomain': True}
+e 3300, 6461, {'latency': 0.0, 'city': {3300: 'Washington, DC', 6461: 'Washington, DC'}, 'asn': {3300: 3300, 6461: 6461}, 'interdomain': True}
+e 3300, 6395, {'latency': 0.0, 'asn': {6395: 6395, 3300: 3300}, 'city': {6395: 'Washington, DC', 3300: 'Washington, DC'}, 'interdomain': True}
+e 101, 3561, {'latency': 0.0, 'city': {3561: 'Seattle, WA', 101: 'Seattle, WA'}, 'asn': {3561: 3561, 101: 101}, 'interdomain': True}
+e 101, 7018, {'latency': 0.0, 'city': {7018: 'Seattle, WA', 101: 'Seattle, WA'}, 'asn': {7018: 7018, 101: 101}, 'interdomain': True}
+e 101, 6509, {'latency': 0.959333136541764, 'asn': {101: 101, 6509: 6509}, 'city': {101: 'Seattle, WA', 6509: 'Vancouver, Canada'}, 'interdomain': True}
+e 101, 3701, {'latency': 0.0, 'asn': {101: 101, 3701: 3701}, 'city': {101: 'Seattle, WA', 3701: 'Seattle, WA'}, 'interdomain': True}
+e 7911, 16631, {'latency': 0.0, 'city': {7911: 'Washington, DC', 16631: 'Washington, DC'}, 'asn': {7911: 7911, 16631: 16631}, 'interdomain': True}
+e 7911, 3561, {'latency': 0.0, 'asn': {3561: 3561, 7911: 7911}, 'city': {3561: 'Tulsa, OK', 7911: 'Tulsa, OK'}, 'interdomain': True}
+e 7911, 7018, {'latency': 0.225316255475169, 'asn': {7018: 7018, 7911: 7911}, 'city': {7018: 'Washington, DC', 7911: 'Ashburn, VA'}, 'interdomain': True}
+e 7911, 6395, {'latency': 0.0, 'asn': {6395: 6395, 7911: 7911}, 'city': {6395: 'Washington, DC', 7911: 'Washington, DC'}, 'interdomain': True}
+e 3561, 4755, {'latency': 0.0, 'city': {3561: 'London, UnitedKingdom', 4755: 'London, UnitedKingdom'}, 'asn': {3561: 3561, 4755: 4755}, 'interdomain': True}
+e 3561, 7018, {'latency': 0.0, 'asn': {3561: 3561, 7018: 7018}, 'city': {3561: 'Washington, DC', 7018: 'Washington, DC'}, 'interdomain': True}
+e 3561, 6461, {'latency': 0.0, 'asn': {3561: 3561, 6461: 6461}, 'city': {3561: 'Washington, DC', 6461: 'Washington, DC'}, 'interdomain': True}
+e 3561, 2548, {'latency': 0.0, 'city': {3561: 'Reston, VA', 2548: 'Reston, VA'}, 'asn': {3561: 3561, 2548: 2548}, 'interdomain': True}
+e 3561, 16631, {'latency': 0.0, 'asn': {3561: 3561, 16631: 16631}, 'city': {3561: 'San Francisco, CA', 16631: 'San Francisco, CA'}, 'interdomain': True}
+e 3561, 3320, {'latency': 31.5982426456463, 'asn': {3320: 3320, 3561: 3561}, 'city': {3320: 'Zurich, Switzerland', 3561: 'New York, NY'}, 'interdomain': True}
+e 3561, 1785, {'latency': 1.57033497150171, 'asn': {1785: 1785, 3561: 3561}, 'city': {1785: 'Syracuse, NY', 3561: 'New York, NY'}, 'interdomain': True}
+e 3561, 6395, {'latency': 0.0, 'city': {3561: 'Miami, FL', 6395: 'Miami, FL'}, 'asn': {3561: 3561, 6395: 6395}, 'interdomain': True}
+e 3561, 3967, {'latency': 0.0, 'asn': {3561: 3561, 3967: 3967}, 'city': {3561: 'Washington, DC', 3967: 'Washington, DC'}, 'interdomain': True}
+e 7018, 6461, {'latency': 0.0, 'asn': {7018: 7018, 6461: 6461}, 'city': {7018: 'Washington, DC', 6461: 'Washington, DC'}, 'interdomain': True}
+e 7018, 2548, {'latency': 0.0, 'asn': {7018: 7018, 2548: 2548}, 'city': {7018: 'Washington, DC', 2548: 'Washington, DC'}, 'interdomain': True}
+e 7018, 16631, {'latency': 0.0, 'asn': {7018: 7018, 16631: 16631}, 'city': {7018: 'Dallas, TX', 16631: 'Dallas, TX'}, 'interdomain': True}
+e 7018, 3320, {'latency': 0.114850126520913, 'asn': {3320: 3320, 7018: 7018}, 'city': {3320: 'Vienna, VA', 7018: 'Washington, DC'}, 'interdomain': True}
+e 7018, 1785, {'latency': 0.0, 'asn': {1785: 1785, 7018: 7018}, 'city': {1785: 'Washington, DC', 7018: 'Washington, DC'}, 'interdomain': True}
+e 7018, 6395, {'latency': 0.0, 'asn': {7018: 7018, 6395: 6395}, 'city': {7018: 'New York, NY', 6395: 'New York, NY'}, 'interdomain': True}
+e 7018, 2686, {'latency': 0.0, 'asn': {7018: 7018, 2686: 2686}, 'city': {7018: 'Washington, DC', 2686: 'Washington, DC'}, 'interdomain': True}
+e 6461, 2497, {'latency': 0.0, 'city': {2497: 'Tokyo, Japan', 6461: 'Tokyo, Japan'}, 'asn': {2497: 2497, 6461: 6461}, 'interdomain': True}
+e 6461, 2548, {'latency': 0.0, 'city': {2548: 'Washington, DC', 6461: 'Washington, DC'}, 'asn': {2548: 2548, 6461: 6461}, 'interdomain': True}
+e 6461, 16631, {'latency': 0.0, 'asn': {6461: 6461, 16631: 16631}, 'city': {6461: 'Washington, DC', 16631: 'Washington, DC'}, 'interdomain': True}
+e 6461, 6395, {'latency': 0.0, 'city': {6395: 'New York, NY', 6461: 'New York, NY'}, 'asn': {6395: 6395, 6461: 6461}, 'interdomain': True}
+e 2497, 16631, {'latency': 0.0, 'asn': {2497: 2497, 16631: 16631}, 'city': {2497: 'Washington, DC', 16631: 'Washington, DC'}, 'interdomain': True}
+e 2497, 6395, {'latency': 0.0, 'asn': {2497: 2497, 6395: 6395}, 'city': {2497: 'Washington, DC', 6395: 'Washington, DC'}, 'interdomain': True}
+e 2548, 16631, {'latency': 0.0, 'city': {2548: 'Washington, DC', 16631: 'Washington, DC'}, 'asn': {2548: 2548, 16631: 16631}, 'interdomain': True}
+e 2548, 1785, {'latency': 0.0, 'city': {1785: 'New York, NY', 2548: 'New York, NY'}, 'asn': {1785: 1785, 2548: 2548}, 'interdomain': True}
+e 2548, 6395, {'latency': 0.0, 'city': {6395: 'Washington, DC', 2548: 'Washington, DC'}, 'asn': {6395: 6395, 2548: 2548}, 'interdomain': True}
+e 16631, 1785, {'latency': 0.0, 'asn': {1785: 1785, 16631: 16631}, 'city': {1785: 'Washington, DC', 16631: 'Washington, DC'}, 'interdomain': True}
+e 16631, 6395, {'latency': 0.0, 'asn': {6395: 6395, 16631: 16631}, 'city': {6395: 'Washington, DC', 16631: 'Washington, DC'}, 'interdomain': True}
+e 3320, 1785, {'latency': 0.0, 'city': {3320: 'Syracuse, NY', 1785: 'Syracuse, NY'}, 'asn': {3320: 3320, 1785: 1785}, 'interdomain': True}
+e 3320, 6395, {'latency': 0.0, 'asn': {3320: 3320, 6395: 6395}, 'city': {3320: 'Washington, DC', 6395: 'Washington, DC'}, 'interdomain': True}
+e 3320, 3967, {'latency': 0.0, 'asn': {3320: 3320, 3967: 3967}, 'city': {3320: 'Sterling, VA', 3967: 'Sterling, VA'}, 'interdomain': True}
+e 1785, 6395, {'latency': 0.0, 'asn': {1785: 1785, 6395: 6395}, 'city': {1785: 'Washington, DC', 6395: 'Washington, DC'}, 'interdomain': True}
