@@ -3,6 +3,8 @@ import networkx as nx
 import random
 import time 
 from plot_graph import *
+import sys, getopt
+
 
 NUM_NODES = 100
 nwrk = nx.full_rary_tree(3,NUM_NODES)
