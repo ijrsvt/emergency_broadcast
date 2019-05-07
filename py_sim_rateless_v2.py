@@ -6,7 +6,7 @@ from plot_graph import *
 
 NUM_NODES = 100
 nwrk = nx.full_rary_tree(3,NUM_NODES)
-MSG_SIZE = 5
+MSG_SIZE = 15
 STARTING_NODE = 3
 DROP_PROB = 0.9
 DEBUG_STOP_AND_PRINT = 100
@@ -25,6 +25,8 @@ for nt in nwrk.nodes(data=True):
         nt[1]['nxt'][nbr] = 0
     nt[1]['msg']  = []
     nt[1]['msg_set'] = set()
+    nt[1]['add_on_iter0'] = []
+    nt[1]['add_on_iter1'] = []
 
 ###############
 # LOAD DATA
@@ -35,7 +37,7 @@ for i in range(MSG_SIZE):
 
 
 spring_layout = nx.spring_layout(nwrk)
-i = 0
+i = -1
 done = False
 
 
@@ -55,6 +57,20 @@ while not done:
     ####################
     for node_tuple in nwrk.nodes(data=True):
         node_dict = node_tuple[1]
+
+        if i % 2 == 0:
+            for new_msg in node_dict['add_on_iter0']:
+                if new_msg not in node_dict['msg_set']:
+                    node_dict['msg_set'].add(new_msg)
+                    node_dict['msg'] += [new_msg]
+            node_dict['add_on_iter0'] = []            
+        else:
+            for new_msg in node_dict['add_on_iter1']:
+                if new_msg not in node_dict['msg_set']:
+                    node_dict['msg_set'].add(new_msg)
+                    node_dict['msg'] += [new_msg]
+            node_dict['add_on_iter1'] = []
+
         if len(node_dict['msg']) == 0:
             continue
         else:
@@ -65,8 +81,8 @@ while not done:
                 ########
                 if random.random() > DROP_PROB:
                     if send_msg not in nwrk.nodes[neighbors]['msg_set']:
-                        nwrk.nodes[neighbors]['msg_set'].add(send_msg)
-                        nwrk.nodes[neighbors]['msg'] += [send_msg]
+                        nwrk.nodes[neighbors]['add_on_iter' + str((i+1) %2)] += [send_msg]
+                                
                 node_dict['nxt'][neighbors] = (send_msg + 1) % len(node_dict['msg'])
 
     #################
