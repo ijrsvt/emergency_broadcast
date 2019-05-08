@@ -7,9 +7,9 @@ from plot_graph import *
 NUM_NODES = 100
 nwrk = nx.full_rary_tree(3,NUM_NODES)
 MSG_SIZE = 15
-STARTING_NODE = 3
+STARTING_NODE = random.randint(0,NUM_NODES)
 DROP_PROB = 0.9
-DEBUG_STOP_AND_PRINT = 100
+DEBUG_STOP_AND_PRINT = None #100
 
 ##################
 #  DATA STRUCTURES
@@ -31,7 +31,7 @@ for nt in nwrk.nodes(data=True):
 ###############
 # LOAD DATA
 ###############
-for i in range(MSG_SIZE):
+for i in range(MSG_SIZE*2):
     nwrk.nodes[STARTING_NODE]['msg'] += [i]
     nwrk.nodes[STARTING_NODE]['msg_set'].add(i)
 
@@ -90,7 +90,7 @@ while not done:
     #################
     num_full = 0
     for node_tuple in nwrk.nodes(data=True):
-        if len(node_tuple[1]['msg']) == MSG_SIZE:
+        if len(node_tuple[1]['msg']) >= MSG_SIZE:
             num_full += 1
     done = (num_full == NUM_NODES) 
 print ("Finished in ", i, " iterations!")                
