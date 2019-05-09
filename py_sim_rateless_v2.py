@@ -4,6 +4,7 @@ import random
 import time 
 from plot_graph import *
 
+<<<<<<< HEAD
 def rateless_send_synch(drop_prob, msg_size=15, adj_file=None,no_display=True,debug_stop=None,overshoot_factor=2):
     if adj_file != None:
         nwrk = nx.readwrite.adjlist.read_adjlist(adj_file)
@@ -24,6 +25,9 @@ def rateless_send_synch(drop_prob, msg_size=15, adj_file=None,no_display=True,de
     #  - 'msg_set' : Set of message received so far
     #################
 
+    ###############
+    # INIT NODES
+    ###############
     for nt in nwrk.nodes(data=True):
         nt[1]['nxt'] = dict()
         for nbr in nwrk.adj[nt[0]]:
@@ -63,6 +67,7 @@ def rateless_send_synch(drop_prob, msg_size=15, adj_file=None,no_display=True,de
         for node_tuple in nwrk.nodes(data=True):
             node_dict = node_tuple[1]
 
+
             if i % 2 == 0:
                 for new_msg in node_dict['add_on_iter0']:
                     if new_msg not in node_dict['msg_set']:
@@ -75,6 +80,7 @@ def rateless_send_synch(drop_prob, msg_size=15, adj_file=None,no_display=True,de
                         node_dict['msg_set'].add(new_msg)
                         node_dict['msg'] += [new_msg]
                 node_dict['add_on_iter1'] = []
+
 
             if len(node_dict['msg']) == 0:
                 continue
