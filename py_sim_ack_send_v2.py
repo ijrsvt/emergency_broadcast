@@ -6,7 +6,7 @@ from plot_graph import *
 
 
 
-def ack_send_synch(drop_prob, msg_size=15, adj_file=None,no_display=True,debug_stop=None):
+def ack_send_synch(drop_prob, msg_size=15, adj_file=None,no_display=True,debug_stop=None,show_iter=False):
     if adj_file != None:
         nwrk = nx.readwrite.adjlist.read_adjlist(adj_file)
         NUM_NODES = len(nwrk.nodes())
@@ -14,9 +14,10 @@ def ack_send_synch(drop_prob, msg_size=15, adj_file=None,no_display=True,debug_s
         NUM_NODES = 100
         nwrk = nx.connected_watts_strogatz_graph(NUM_NODES, 3, .5, 10)
     MSG_SIZE = msg_size
-    STARTING_NODE = list(nwrk.nodes())[random.randint(0,NUM_NODES)]
+    STARTING_NODE = list(nwrk.nodes())[random.randint(0,NUM_NODES-1)]
     DROP_PROB = drop_prob
     DEBUG_STOP_AND_PRINT = debug_stop #100
+    PRINT_ITER = show_iter
 
     ##################
     #  DATA STRUCTURES
@@ -60,7 +61,7 @@ def ack_send_synch(drop_prob, msg_size=15, adj_file=None,no_display=True,debug_s
     #############
     while not done:
         i += 1
-        if i % 10 == 0:
+        if PRINT_ITER and i % PRINT_ITER == 0:
             print("Iteration:",i)
         if DEBUG_STOP_AND_PRINT != None and i % DEBUG_STOP_AND_PRINT == 0:
             generate_graph_msg_list(nwrk, spring_layout)
